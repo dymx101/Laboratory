@@ -1,0 +1,1219 @@
+TSSToolkitResources
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/Info.plist Resources/SSToolkitResources-Info.plist
+cCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/en.lproj/SSToolkit.strings Resources/en.lproj/SSToolkit.strings
+cCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/de.lproj/SSToolkit.strings Resources/de.lproj/SSToolkit.strings
+cCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/es.lproj/SSToolkit.strings Resources/es.lproj/SSToolkit.strings
+cCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/fr.lproj/SSToolkit.strings Resources/fr.lproj/SSToolkit.strings
+cCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/id.lproj/SSToolkit.strings Resources/id.lproj/SSToolkit.strings
+cCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/it.lproj/SSToolkit.strings Resources/it.lproj/SSToolkit.strings
+cCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/ja.lproj/SSToolkit.strings Resources/ja.lproj/SSToolkit.strings
+cCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/ko.lproj/SSToolkit.strings Resources/ko.lproj/SSToolkit.strings
+cCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/ms.lproj/SSToolkit.strings Resources/ms.lproj/SSToolkit.strings
+cCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/nl.lproj/SSToolkit.strings Resources/nl.lproj/SSToolkit.strings
+cCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/pt_PT.lproj/SSToolkit.strings Resources/pt_PT.lproj/SSToolkit.strings
+cCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/pt.lproj/SSToolkit.strings Resources/pt.lproj/SSToolkit.strings
+cCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/ru.lproj/SSToolkit.strings Resources/ru.lproj/SSToolkit.strings
+cCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/sv.lproj/SSToolkit.strings Resources/sv.lproj/SSToolkit.strings
+cCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/zh_Hans.lproj/SSToolkit.strings Resources/zh_Hans.lproj/SSToolkit.strings
+cCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/zh_Hant.lproj/SSToolkit.strings Resources/zh_Hant.lproj/SSToolkit.strings
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/hud-check.png Resources/Images/hud-check.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/hud-check@2x.png Resources/Images/hud-check@2x.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/hud-x.png Resources/Images/hud-x.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/hud-x@2x.png Resources/Images/hud-x@2x.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/gray-star.png Resources/Images/gray-star.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/gray-star@2x.png Resources/Images/gray-star@2x.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/orange-star.png Resources/Images/orange-star.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/orange-star@2x.png Resources/Images/orange-star@2x.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldBackground.png Resources/Images/SSAddressBarTextFieldBackground.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldBackground@2x.png Resources/Images/SSAddressBarTextFieldBackground@2x.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldReload.png Resources/Images/SSAddressBarTextFieldReload.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldReload@2x.png Resources/Images/SSAddressBarTextFieldReload@2x.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldStop.png Resources/Images/SSAddressBarTextFieldStop.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldStop@2x.png Resources/Images/SSAddressBarTextFieldStop@2x.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarButton.png Resources/Images/UISegmentBarButton.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarButton@2x.png Resources/Images/UISegmentBarButton@2x.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarButtonHighlighted.png Resources/Images/UISegmentBarButtonHighlighted.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarButtonHighlighted@2x.png Resources/Images/UISegmentBarButtonHighlighted@2x.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarDivider.png Resources/Images/UISegmentBarDivider.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarDivider@2x.png Resources/Images/UISegmentBarDivider@2x.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarDividerHighlighted.png Resources/Images/UISegmentBarDividerHighlighted.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarDividerHighlighted@2x.png Resources/Images/UISegmentBarDividerHighlighted@2x.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/action-button-mini.png Resources/Images/action-button-mini.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/action-button-mini@2x.png Resources/Images/action-button-mini@2x.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/action-button.png Resources/Images/action-button.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/action-button@2x.png Resources/Images/action-button@2x.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/back-button-mini.png Resources/Images/back-button-mini.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/back-button-mini@2x.png Resources/Images/back-button-mini@2x.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/back-button.png Resources/Images/back-button.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/back-button@2x.png Resources/Images/back-button@2x.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/forward-button-mini.png Resources/Images/forward-button-mini.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/forward-button-mini@2x.png Resources/Images/forward-button-mini@2x.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/forward-button.png Resources/Images/forward-button.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/forward-button@2x.png Resources/Images/forward-button@2x.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/reload-button-mini.png Resources/Images/reload-button-mini.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/reload-button-mini@2x.png Resources/Images/reload-button-mini@2x.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/reload-button.png Resources/Images/reload-button.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/reload-button@2x.png Resources/Images/reload-button@2x.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/safari-button-mini.png Resources/Images/safari-button-mini.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/safari-button-mini@2x.png Resources/Images/safari-button-mini@2x.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/safari-button.png Resources/Images/safari-button.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/safari-button@2x.png Resources/Images/safari-button@2x.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/stop-button-mini.png Resources/Images/stop-button-mini.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/stop-button-mini@2x.png Resources/Images/stop-button-mini@2x.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/stop-button.png Resources/Images/stop-button.png
+cCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/stop-button@2x.png Resources/Images/stop-button@2x.png
+cTouch /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/Info.plist
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldBackground.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldBackground@2x.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldReload.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldReload@2x.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldStop.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldStop@2x.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarButton.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarButton@2x.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarButtonHighlighted.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarButtonHighlighted@2x.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarDivider.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarDivider@2x.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarDividerHighlighted.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarDividerHighlighted@2x.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/action-button-mini.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/action-button-mini@2x.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/action-button.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/action-button@2x.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/back-button-mini.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/back-button-mini@2x.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/back-button.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/back-button@2x.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/de.lproj/SSToolkit.strings
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/en.lproj/SSToolkit.strings
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/es.lproj/SSToolkit.strings
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/forward-button-mini.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/forward-button-mini@2x.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/forward-button.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/forward-button@2x.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/fr.lproj/SSToolkit.strings
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/gray-star.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/gray-star@2x.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/hud-check.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/hud-check@2x.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/hud-x.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/hud-x@2x.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/id.lproj/SSToolkit.strings
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/it.lproj/SSToolkit.strings
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/ja.lproj/SSToolkit.strings
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/ko.lproj/SSToolkit.strings
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/ms.lproj/SSToolkit.strings
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/nl.lproj/SSToolkit.strings
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/orange-star.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/orange-star@2x.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/pt.lproj/SSToolkit.strings
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/pt_PT.lproj/SSToolkit.strings
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/reload-button-mini.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/reload-button-mini@2x.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/reload-button.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/reload-button@2x.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/ru.lproj/SSToolkit.strings
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/safari-button-mini.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/safari-button-mini@2x.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/safari-button.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/safari-button@2x.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/stop-button-mini.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/stop-button-mini@2x.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/stop-button.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/stop-button@2x.png
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/sv.lproj/SSToolkit.strings
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/zh_Hans.lproj/SSToolkit.strings
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/zh_Hant.lproj/SSToolkit.strings
+t2
+s0
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldBackground.png
+c0000000051E876510000000000000100
+t1374189137
+s256
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldBackground@2x.png
+c0000000051E87651000000000000015E
+t1374189137
+s350
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldReload.png
+c0000000051E87651000000000000036F
+t1374189137
+s879
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldReload@2x.png
+c0000000051E8765100000000000004E0
+t1374189137
+s1248
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldStop.png
+c0000000051E87651000000000000027C
+t1374189137
+s636
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldStop@2x.png
+c0000000051E8765100000000000003C9
+t1374189137
+s969
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/UISegmentBarButton.png
+c0000000051E876510000000000000240
+t1374189137
+s576
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/UISegmentBarButton@2x.png
+c0000000051E876510000000000000525
+t1374189137
+s1317
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/UISegmentBarButtonHighlighted.png
+c0000000051E876510000000000000248
+t1374189137
+s584
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/UISegmentBarButtonHighlighted@2x.png
+c0000000051E87651000000000000053E
+t1374189137
+s1342
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/UISegmentBarDivider.png
+c0000000051E87651000000000000008E
+t1374189137
+s142
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/UISegmentBarDivider@2x.png
+c0000000051E8765100000000000000CC
+t1374189137
+s204
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/UISegmentBarDividerHighlighted.png
+c0000000051E87651000000000000008E
+t1374189137
+s142
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/UISegmentBarDividerHighlighted@2x.png
+c0000000051E8765100000000000000E7
+t1374189137
+s231
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/action-button-mini.png
+c0000000051E87651000000000000012C
+t1374189137
+s300
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/action-button-mini@2x.png
+c0000000051E8765100000000000001FE
+t1374189137
+s510
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/action-button.png
+c0000000051E87651000000000000015F
+t1374189137
+s351
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/action-button@2x.png
+c0000000051E876510000000000000262
+t1374189137
+s610
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/back-button-mini.png
+c0000000051E87651000000000000008E
+t1374189137
+s142
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/back-button-mini@2x.png
+c0000000051E8765100000000000000FC
+t1374189137
+s252
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/back-button.png
+c0000000051E8765100000000000000BB
+t1374189137
+s187
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/back-button@2x.png
+c0000000051E8765100000000000000FD
+t1374189137
+s253
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/forward-button-mini.png
+c0000000051E876510000000000000094
+t1374189137
+s148
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/forward-button-mini@2x.png
+c0000000051E8765100000000000000ED
+t1374189137
+s237
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/forward-button.png
+c0000000051E8765100000000000000AE
+t1374189137
+s174
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/forward-button@2x.png
+c0000000051E876510000000000000104
+t1374189137
+s260
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/gray-star.png
+c0000000051E876510000000000000DC4
+t1374189137
+s3524
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/gray-star@2x.png
+c0000000051E87651000000000000118E
+t1374189137
+s4494
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/hud-check.png
+c0000000051E8765100000000000001A1
+t1374189137
+s417
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/hud-check@2x.png
+c0000000051E876510000000000000299
+t1374189137
+s665
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/hud-x.png
+c0000000051E8765100000000000001BA
+t1374189137
+s442
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/hud-x@2x.png
+c0000000051E876510000000000000310
+t1374189137
+s784
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/orange-star.png
+c0000000051E876510000000000000EB3
+t1374189137
+s3763
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/orange-star@2x.png
+c0000000051E876510000000000001456
+t1374189137
+s5206
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/reload-button-mini.png
+c0000000051E876510000000000000106
+t1374189137
+s262
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/reload-button-mini@2x.png
+c0000000051E87651000000000000020E
+t1374189137
+s526
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/reload-button.png
+c0000000051E876510000000000000175
+t1374189137
+s373
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/reload-button@2x.png
+c0000000051E8765100000000000002AE
+t1374189137
+s686
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/safari-button-mini.png
+c0000000051E876510000000000000116
+t1374189137
+s278
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/safari-button-mini@2x.png
+c0000000051E8765100000000000002A4
+t1374189137
+s676
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/safari-button.png
+c0000000051E8765100000000000001A2
+t1374189137
+s418
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/safari-button@2x.png
+c0000000051E876510000000000000317
+t1374189137
+s791
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/stop-button-mini.png
+c0000000051E8765100000000000000D2
+t1374189137
+s210
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/stop-button-mini@2x.png
+c0000000051E876510000000000000135
+t1374189137
+s309
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/stop-button.png
+c0000000051E8765100000000000000FC
+t1374189137
+s252
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/stop-button@2x.png
+c0000000051E876510000000000000170
+t1374189137
+s368
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/de.lproj/SSToolkit.strings
+c0000000051E876510000000000000369
+t1374189137
+s873
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/en.lproj/SSToolkit.strings
+c0000000051E876510000000000000352
+t1374189137
+s850
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/es.lproj/SSToolkit.strings
+c0000000051E876510000000000000374
+t1374189137
+s884
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/fr.lproj/SSToolkit.strings
+c0000000051E876510000000000000361
+t1374189137
+s865
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/id.lproj/SSToolkit.strings
+c0000000051E876510000000000000361
+t1374189137
+s865
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/it.lproj/SSToolkit.strings
+c0000000051E87651000000000000035C
+t1374189137
+s860
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/ja.lproj/SSToolkit.strings
+c0000000051E8765100000000000005F0
+t1374189137
+s1520
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/ko.lproj/SSToolkit.strings
+c0000000051E87651000000000000033A
+t1374189137
+s826
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/ms.lproj/SSToolkit.strings
+c0000000051E876510000000000000370
+t1374189137
+s880
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/nl.lproj/SSToolkit.strings
+c0000000051E876510000000000000376
+t1374189137
+s886
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/pt.lproj/SSToolkit.strings
+c0000000051E87651000000000000035A
+t1374189137
+s858
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/pt_PT.lproj/SSToolkit.strings
+c0000000051E876510000000000000361
+t1374189137
+s865
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/ru.lproj/SSToolkit.strings
+c0000000051E876510000000000000382
+t1374189137
+s898
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/sv.lproj/SSToolkit.strings
+c0000000051E87651000000000000036C
+t1374189137
+s876
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/zh_Hans.lproj/SSToolkit.strings
+c0000000051E87651000000000000035A
+t1374189137
+s858
+
+N/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/zh_Hant.lproj/SSToolkit.strings
+c0000000051E876510000000000000358
+t1374189137
+s856
+
+NResources/SSToolkitResources-Info.plist
+c0000000051E876510000000000000572
+t1374189137
+s1394
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies041eecd2ad98b741^752106d3ad98b741^---0#1#0#--18"Check dependencies36"4B1E7994-E439-43A6-BA2A-AF2CE97F6A00-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldBackground.png Resources/Images/SSAddressBarTextFieldBackground.png
+s395881939.227557
+e395881939.273719
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldBackground.png
+xResources/Images/SSAddressBarTextFieldBackground.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"CopyPNGFile ./SSToolkitResources.bundle/SSAddressBarTextFieldBackground.png Resources/Images/SSAddressBarTextFieldBackground.pngab5a3ad3ad98b741^af3e46d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldBackground.png0000000000000000^744"CopyPNGFile ./SSToolkitResources.bundle/SSAddressBarTextFieldBackground.png Resources/Images/SSAddressBarTextFieldBackground.png    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldBackground.png /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldBackground.png36"5EF75251-9648-418D-9E5D-39FD96D72B8C-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldBackground@2x.png Resources/Images/SSAddressBarTextFieldBackground@2x.png
+s395881939.239249
+e395881939.290138
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldBackground@2x.png
+xResources/Images/SSAddressBarTextFieldBackground@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"CopyPNGFile ./SSToolkitResources.bundle/SSAddressBarTextFieldBackground@2x.png Resources/Images/SSAddressBarTextFieldBackground@2x.png02673dd3ad98b741^67624ad3ad98b741^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldBackground@2x.png0000000000000000^764"CopyPNGFile "./SSToolkitResources.bundle/SSAddressBarTextFieldBackground@2x.png" "Resources/Images/SSAddressBarTextFieldBackground@2x.png"    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldBackground@2x.png" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldBackground@2x.png"36"6A7ADF96-1100-4F92-9AAC-DE254B3A5A13-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldReload.png Resources/Images/SSAddressBarTextFieldReload.png
+s395881939.240048
+e395881939.308928
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldReload.png
+xResources/Images/SSAddressBarTextFieldReload.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"CopyPNGFile ./SSToolkitResources.bundle/SSAddressBarTextFieldReload.png Resources/Images/SSAddressBarTextFieldReload.png1d8f3dd3ad98b741^5b224fd3ad98b741^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldReload.png0000000000000000^728"CopyPNGFile ./SSToolkitResources.bundle/SSAddressBarTextFieldReload.png Resources/Images/SSAddressBarTextFieldReload.png    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldReload.png /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldReload.png36"430D355A-2CEE-4E31-9867-7AC1E6BE26AE-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldReload@2x.png Resources/Images/SSAddressBarTextFieldReload@2x.png
+s395881939.259079
+e395881939.325691
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldReload@2x.png
+xResources/Images/SSAddressBarTextFieldReload@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"CopyPNGFile ./SSToolkitResources.bundle/SSAddressBarTextFieldReload@2x.png Resources/Images/SSAddressBarTextFieldReload@2x.pnge76f42d3ad98b741^63ed53d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldReload@2x.png0000000000000000^748"CopyPNGFile "./SSToolkitResources.bundle/SSAddressBarTextFieldReload@2x.png" "Resources/Images/SSAddressBarTextFieldReload@2x.png"    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldReload@2x.png" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldReload@2x.png"36"19FC72AD-A85A-4B1E-8B55-1610AD5E778D-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldStop.png Resources/Images/SSAddressBarTextFieldStop.png
+s395881939.277503
+e395881939.346273
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldStop.png
+xResources/Images/SSAddressBarTextFieldStop.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"CopyPNGFile ./SSToolkitResources.bundle/SSAddressBarTextFieldStop.png Resources/Images/SSAddressBarTextFieldStop.pngbb2747d3ad98b741^8ba958d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldStop.png0000000000000000^720"CopyPNGFile ./SSToolkitResources.bundle/SSAddressBarTextFieldStop.png Resources/Images/SSAddressBarTextFieldStop.png    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldStop.png /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldStop.png36"2E3DCCBA-68E3-40CC-B24B-DD9D1ADB0E49-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldStop@2x.png Resources/Images/SSAddressBarTextFieldStop@2x.png
+s395881939.299327
+e395881939.358671
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldStop@2x.png
+xResources/Images/SSAddressBarTextFieldStop@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"CopyPNGFile ./SSToolkitResources.bundle/SSAddressBarTextFieldStop@2x.png Resources/Images/SSAddressBarTextFieldStop@2x.png84ba4cd3ad98b741^aaf45bd3ad98b741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldStop@2x.png0000000000000000^740"CopyPNGFile "./SSToolkitResources.bundle/SSAddressBarTextFieldStop@2x.png" "Resources/Images/SSAddressBarTextFieldStop@2x.png"    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldStop@2x.png" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldStop@2x.png"36"A4C40E0B-7C5F-47C2-93DA-7D7953168A33-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarButton.png Resources/Images/UISegmentBarButton.png
+s395881939.312459
+e395881939.365449
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarButton.png
+xResources/Images/UISegmentBarButton.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CopyPNGFile ./SSToolkitResources.bundle/UISegmentBarButton.png Resources/Images/UISegmentBarButton.pnga01950d3ad98b741^21e65ed3ad98b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/UISegmentBarButton.png0000000000000000^692"CopyPNGFile ./SSToolkitResources.bundle/UISegmentBarButton.png Resources/Images/UISegmentBarButton.png    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/UISegmentBarButton.png /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarButton.png36"E0F23E19-8429-4B46-A213-FF338319A0B7-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarButton@2x.png Resources/Images/UISegmentBarButton@2x.png
+s395881939.326934
+e395881939.411729
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarButton@2x.png
+xResources/Images/UISegmentBarButton@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"CopyPNGFile ./SSToolkitResources.bundle/UISegmentBarButton@2x.png Resources/Images/UISegmentBarButton@2x.png81cf53d3ad98b741^58716ad3ad98b741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/UISegmentBarButton@2x.png0000000000000000^712"CopyPNGFile "./SSToolkitResources.bundle/UISegmentBarButton@2x.png" "Resources/Images/UISegmentBarButton@2x.png"    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/UISegmentBarButton@2x.png" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarButton@2x.png"36"01C92C34-48DF-4F70-B511-61E8E5FFFF4D-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarButtonHighlighted.png Resources/Images/UISegmentBarButtonHighlighted.png
+s395881939.351586
+e395881939.405592
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarButtonHighlighted.png
+xResources/Images/UISegmentBarButtonHighlighted.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"CopyPNGFile ./SSToolkitResources.bundle/UISegmentBarButtonHighlighted.png Resources/Images/UISegmentBarButtonHighlighted.png711e5ad3ad98b741^486f68d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/UISegmentBarButtonHighlighted.png0000000000000000^736"CopyPNGFile ./SSToolkitResources.bundle/UISegmentBarButtonHighlighted.png Resources/Images/UISegmentBarButtonHighlighted.png    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/UISegmentBarButtonHighlighted.png /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarButtonHighlighted.png36"14AE6AF8-565C-46AB-9B06-DB7386F53199-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarButtonHighlighted@2x.png Resources/Images/UISegmentBarButtonHighlighted@2x.png
+s395881939.363032
+e395881939.428448
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarButtonHighlighted@2x.png
+xResources/Images/UISegmentBarButtonHighlighted@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"CopyPNGFile ./SSToolkitResources.bundle/UISegmentBarButtonHighlighted@2x.png Resources/Images/UISegmentBarButtonHighlighted@2x.pngd40c5dd3ad98b741^bbb46dd3ad98b741^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/UISegmentBarButtonHighlighted@2x.png0000000000000000^756"CopyPNGFile "./SSToolkitResources.bundle/UISegmentBarButtonHighlighted@2x.png" "Resources/Images/UISegmentBarButtonHighlighted@2x.png"    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/UISegmentBarButtonHighlighted@2x.png" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarButtonHighlighted@2x.png"36"D5016288-15CC-48DD-9BB5-70904EF0F2FC-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarDivider.png Resources/Images/UISegmentBarDivider.png
+s395881939.367395
+e395881939.420191
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarDivider.png
+xResources/Images/UISegmentBarDivider.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"CopyPNGFile ./SSToolkitResources.bundle/UISegmentBarDivider.png Resources/Images/UISegmentBarDivider.pngd02b5ed3ad98b741^a2996bd3ad98b741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/UISegmentBarDivider.png0000000000000000^696"CopyPNGFile ./SSToolkitResources.bundle/UISegmentBarDivider.png Resources/Images/UISegmentBarDivider.png    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/UISegmentBarDivider.png /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarDivider.png36"3990E3BF-3E0D-4588-AB6C-34856AB764A6-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarDivider@2x.png Resources/Images/UISegmentBarDivider@2x.png
+s395881939.408513
+e395881939.459330
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarDivider@2x.png
+xResources/Images/UISegmentBarDivider@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"CopyPNGFile ./SSToolkitResources.bundle/UISegmentBarDivider@2x.png Resources/Images/UISegmentBarDivider@2x.pngc0b068d3ad98b741^a03878d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/UISegmentBarDivider@2x.png0000000000000000^716"CopyPNGFile "./SSToolkitResources.bundle/UISegmentBarDivider@2x.png" "Resources/Images/UISegmentBarDivider@2x.png"    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/UISegmentBarDivider@2x.png" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarDivider@2x.png"36"D0D7495F-28DC-4B31-8D29-7CBBB3D884D2-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarDividerHighlighted.png Resources/Images/UISegmentBarDividerHighlighted.png
+s395881939.413503
+e395881939.468408
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarDividerHighlighted.png
+xResources/Images/UISegmentBarDividerHighlighted.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"CopyPNGFile ./SSToolkitResources.bundle/UISegmentBarDividerHighlighted.png Resources/Images/UISegmentBarDividerHighlighted.pnge0f569d3ad98b741^574178d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/UISegmentBarDividerHighlighted.png0000000000000000^740"CopyPNGFile ./SSToolkitResources.bundle/UISegmentBarDividerHighlighted.png Resources/Images/UISegmentBarDividerHighlighted.png    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/UISegmentBarDividerHighlighted.png /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarDividerHighlighted.png36"C69E4EDC-4515-469D-9B8A-5A0335B56C8C-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarDividerHighlighted@2x.png Resources/Images/UISegmentBarDividerHighlighted@2x.png
+s395881939.425110
+e395881939.468690
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarDividerHighlighted@2x.png
+xResources/Images/UISegmentBarDividerHighlighted@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"CopyPNGFile ./SSToolkitResources.bundle/UISegmentBarDividerHighlighted@2x.png Resources/Images/UISegmentBarDividerHighlighted@2x.png6ff16cd3ad98b741^3d4778d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/UISegmentBarDividerHighlighted@2x.png0000000000000000^760"CopyPNGFile "./SSToolkitResources.bundle/UISegmentBarDividerHighlighted@2x.png" "Resources/Images/UISegmentBarDividerHighlighted@2x.png"    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/UISegmentBarDividerHighlighted@2x.png" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarDividerHighlighted@2x.png"36"D9A86180-9A99-456E-8E3E-656C7099E4AD-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/action-button-mini.png Resources/Images/action-button-mini.png
+s395881939.429704
+e395881939.483669
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/action-button-mini.png
+xResources/Images/action-button-mini.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CopyPNGFile ./SSToolkitResources.bundle/action-button-mini.png Resources/Images/action-button-mini.png7d1f6ed3ad98b741^bfef7bd3ad98b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/action-button-mini.png0000000000000000^692"CopyPNGFile ./SSToolkitResources.bundle/action-button-mini.png Resources/Images/action-button-mini.png    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/action-button-mini.png /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/action-button-mini.png36"0F83E589-3FD6-47BF-AC79-0F8C6CC0F4EC-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/action-button-mini@2x.png Resources/Images/action-button-mini@2x.png
+s395881939.463809
+e395881939.551329
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/action-button-mini@2x.png
+xResources/Images/action-button-mini@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"CopyPNGFile ./SSToolkitResources.bundle/action-button-mini@2x.png Resources/Images/action-button-mini@2x.png66da76d3ad98b741^3a5a8dd3ad98b741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/action-button-mini@2x.png0000000000000000^712"CopyPNGFile "./SSToolkitResources.bundle/action-button-mini@2x.png" "Resources/Images/action-button-mini@2x.png"    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/action-button-mini@2x.png" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/action-button-mini@2x.png"36"E249B6F7-142D-48C6-954C-CC95323E3AA7-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/action-button.png Resources/Images/action-button.png
+s395881939.472938
+e395881939.552908
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/action-button.png
+xResources/Images/action-button.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile ./SSToolkitResources.bundle/action-button.png Resources/Images/action-button.pngd82e79d3ad98b741^e59b8dd3ad98b741^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/action-button.png0000000000000000^672"CopyPNGFile ./SSToolkitResources.bundle/action-button.png Resources/Images/action-button.png    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/action-button.png /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/action-button.png36"73649E45-11DF-48A3-A078-04BC1A00B10C-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/action-button@2x.png Resources/Images/action-button@2x.png
+s395881939.473567
+e395881939.549066
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/action-button@2x.png
+xResources/Images/action-button@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile ./SSToolkitResources.bundle/action-button@2x.png Resources/Images/action-button@2x.pngd65579d3ad98b741^639b8cd3ad98b741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/action-button@2x.png0000000000000000^692"CopyPNGFile "./SSToolkitResources.bundle/action-button@2x.png" "Resources/Images/action-button@2x.png"    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/action-button@2x.png" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/action-button@2x.png"36"8167D990-FFBE-423D-B090-9512CF321590-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/back-button-mini.png Resources/Images/back-button-mini.png
+s395881939.486661
+e395881939.558145
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/back-button-mini.png
+xResources/Images/back-button-mini.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile ./SSToolkitResources.bundle/back-button-mini.png Resources/Images/back-button-mini.pngc9ae7cd3ad98b741^c2868fd3ad98b741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/back-button-mini.png0000000000000000^684"CopyPNGFile ./SSToolkitResources.bundle/back-button-mini.png Resources/Images/back-button-mini.png    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/back-button-mini.png /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/back-button-mini.png36"C2774580-4B0A-488E-A11B-3806830536EA-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/back-button-mini@2x.png Resources/Images/back-button-mini@2x.png
+s395881939.550547
+e395881939.607752
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/back-button-mini@2x.png
+xResources/Images/back-button-mini@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"CopyPNGFile ./SSToolkitResources.bundle/back-button-mini@2x.png Resources/Images/back-button-mini@2x.pngc30c8dd3ad98b741^e2ad9bd3ad98b741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/back-button-mini@2x.png0000000000000000^704"CopyPNGFile "./SSToolkitResources.bundle/back-button-mini@2x.png" "Resources/Images/back-button-mini@2x.png"    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/back-button-mini@2x.png" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/back-button-mini@2x.png"36"5DE1F3A7-1F66-40FA-94BA-CF0F3818A534-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/back-button.png Resources/Images/back-button.png
+s395881939.552587
+e395881939.609802
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/back-button.png
+xResources/Images/back-button.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"CopyPNGFile ./SSToolkitResources.bundle/back-button.png Resources/Images/back-button.png32928dd3ad98b741^95279cd3ad98b741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/back-button.png0000000000000000^664"CopyPNGFile ./SSToolkitResources.bundle/back-button.png Resources/Images/back-button.png    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/back-button.png /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/back-button.png36"8D8DFB12-4785-430D-BDD6-DD3E25BC6EA2-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/back-button@2x.png Resources/Images/back-button@2x.png
+s395881939.554358
+e395881939.615468
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/back-button@2x.png
+xResources/Images/back-button@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile ./SSToolkitResources.bundle/back-button@2x.png Resources/Images/back-button@2x.png6a148ed3ad98b741^399c9dd3ad98b741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/back-button@2x.png0000000000000000^684"CopyPNGFile "./SSToolkitResources.bundle/back-button@2x.png" "Resources/Images/back-button@2x.png"    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/back-button@2x.png" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/back-button@2x.png"36"B58EE154-FCE1-4802-893B-A261033A2DD8-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/forward-button-mini.png Resources/Images/forward-button-mini.png
+s395881939.561625
+e395881939.648382
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/forward-button-mini.png
+xResources/Images/forward-button-mini.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"CopyPNGFile ./SSToolkitResources.bundle/forward-button-mini.png Resources/Images/forward-button-mini.pngf06a91d3ad98b741^ee79a6d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/forward-button-mini.png0000000000000000^696"CopyPNGFile ./SSToolkitResources.bundle/forward-button-mini.png Resources/Images/forward-button-mini.png    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/forward-button-mini.png /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/forward-button-mini.png36"45C47A5D-4C27-4D1C-8622-A0A5E34BFBFA-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/forward-button-mini@2x.png Resources/Images/forward-button-mini@2x.png
+s395881939.609034
+e395881939.688349
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/forward-button-mini@2x.png
+xResources/Images/forward-button-mini@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"CopyPNGFile ./SSToolkitResources.bundle/forward-button-mini@2x.png Resources/Images/forward-button-mini@2x.pngcb0f9cd3ad98b741^7deab0d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/forward-button-mini@2x.png0000000000000000^716"CopyPNGFile "./SSToolkitResources.bundle/forward-button-mini@2x.png" "Resources/Images/forward-button-mini@2x.png"    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/forward-button-mini@2x.png" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/forward-button-mini@2x.png"36"BCAB9D72-BE26-4C35-89E7-76B532B87C6B-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/forward-button.png Resources/Images/forward-button.png
+s395881939.611023
+e395881939.677395
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/forward-button.png
+xResources/Images/forward-button.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile ./SSToolkitResources.bundle/forward-button.png Resources/Images/forward-button.pnge0869cd3ad98b741^5682add3ad98b741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/forward-button.png0000000000000000^676"CopyPNGFile ./SSToolkitResources.bundle/forward-button.png Resources/Images/forward-button.png    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/forward-button.png /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/forward-button.png36"4033BD23-B038-4C8A-9BA3-8FFA2486E926-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/forward-button@2x.png Resources/Images/forward-button@2x.png
+s395881939.616809
+e395881939.685846
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/forward-button@2x.png
+xResources/Images/forward-button@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile ./SSToolkitResources.bundle/forward-button@2x.png Resources/Images/forward-button@2x.png990d9ed3ad98b741^30a0afd3ad98b741^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/forward-button@2x.png0000000000000000^696"CopyPNGFile "./SSToolkitResources.bundle/forward-button@2x.png" "Resources/Images/forward-button@2x.png"    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/forward-button@2x.png" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/forward-button@2x.png"36"39961EE3-8691-4F5A-A2CB-ADA855E3CE36-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/gray-star.png Resources/Images/gray-star.png
+s395881939.165570
+e395881939.226277
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/gray-star.png
+xResources/Images/gray-star.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"CopyPNGFile ./SSToolkitResources.bundle/gray-star.png Resources/Images/gray-star.png70b42bd3ad98b741^d2fc39d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/gray-star.png0000000000000000^656"CopyPNGFile ./SSToolkitResources.bundle/gray-star.png Resources/Images/gray-star.png    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/gray-star.png /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/gray-star.png36"C8765530-D6DF-4EDA-830F-662143C0D347-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/gray-star@2x.png Resources/Images/gray-star@2x.png
+s395881939.170975
+e395881939.237334
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/gray-star@2x.png
+xResources/Images/gray-star@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CopyPNGFile ./SSToolkitResources.bundle/gray-star@2x.png Resources/Images/gray-star@2x.png22ff2cd3ad98b741^99d43cd3ad98b741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/gray-star@2x.png0000000000000000^676"CopyPNGFile "./SSToolkitResources.bundle/gray-star@2x.png" "Resources/Images/gray-star@2x.png"    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/gray-star@2x.png" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/gray-star@2x.png"36"1A1C8F02-EF0A-4244-961F-60895C3C5885-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/hud-check.png Resources/Images/hud-check.png
+s395881939.094524
+e395881939.176596
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/hud-check.png
+xResources/Images/hud-check.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"CopyPNGFile ./SSToolkitResources.bundle/hud-check.png Resources/Images/hud-check.png2a5718d3ad98b741^2ec82ed3ad98b741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/hud-check.png0000000000000000^656"CopyPNGFile ./SSToolkitResources.bundle/hud-check.png Resources/Images/hud-check.png    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/hud-check.png /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/hud-check.png36"0946A041-163F-4804-9CB2-B45DCCA811AC-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/hud-check@2x.png Resources/Images/hud-check@2x.png
+s395881939.094572
+e395881939.170705
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/hud-check@2x.png
+xResources/Images/hud-check@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CopyPNGFile ./SSToolkitResources.bundle/hud-check@2x.png Resources/Images/hud-check@2x.png155818d3ad98b741^14b32ed3ad98b741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/hud-check@2x.png0000000000000000^676"CopyPNGFile "./SSToolkitResources.bundle/hud-check@2x.png" "Resources/Images/hud-check@2x.png"    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/hud-check@2x.png" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/hud-check@2x.png"36"5553DFA3-2D5B-44DE-84DB-29BE8C8ED670-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/hud-x.png Resources/Images/hud-x.png
+s395881939.097047
+e395881939.159044
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/hud-x.png
+xResources/Images/hud-x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"CopyPNGFile ./SSToolkitResources.bundle/hud-x.png Resources/Images/hud-x.pngddef18d3ad98b741^4f962ed3ad98b741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/hud-x.png0000000000000000^640"CopyPNGFile ./SSToolkitResources.bundle/hud-x.png Resources/Images/hud-x.png    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/hud-x.png /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/hud-x.png36"AA9D0C34-783E-4638-8804-059659E975A1-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/hud-x@2x.png Resources/Images/hud-x@2x.png
+s395881939.097058
+e395881939.162881
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/hud-x@2x.png
+xResources/Images/hud-x@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"CopyPNGFile ./SSToolkitResources.bundle/hud-x@2x.png Resources/Images/hud-x@2x.png52f018d3ad98b741^9faa2ed3ad98b741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/hud-x@2x.png0000000000000000^660"CopyPNGFile "./SSToolkitResources.bundle/hud-x@2x.png" "Resources/Images/hud-x@2x.png"    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/hud-x@2x.png" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/hud-x@2x.png"36"2BFAA91F-4CA3-4982-B2B1-BAE88D23DD9B-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/orange-star.png Resources/Images/orange-star.png
+s395881939.176005
+e395881939.236880
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/orange-star.png
+xResources/Images/orange-star.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"CopyPNGFile ./SSToolkitResources.bundle/orange-star.png Resources/Images/orange-star.pngf2242dd3ad98b741^20d13cd3ad98b741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/orange-star.png0000000000000000^664"CopyPNGFile ./SSToolkitResources.bundle/orange-star.png Resources/Images/orange-star.png    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/orange-star.png /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/orange-star.png36"5A7C1DE7-599E-47F5-A176-DA3CFFCB3BBF-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/orange-star@2x.png Resources/Images/orange-star@2x.png
+s395881939.181814
+e395881939.256511
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/orange-star@2x.png
+xResources/Images/orange-star@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile ./SSToolkitResources.bundle/orange-star@2x.png Resources/Images/orange-star@2x.png48a72ed3ad98b741^2cb641d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/orange-star@2x.png0000000000000000^684"CopyPNGFile "./SSToolkitResources.bundle/orange-star@2x.png" "Resources/Images/orange-star@2x.png"    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/orange-star@2x.png" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/orange-star@2x.png"36"A273C6CE-D879-4480-8E86-EBC39E0230FF-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/reload-button-mini.png Resources/Images/reload-button-mini.png
+s395881939.653686
+e395881939.706304
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/reload-button-mini.png
+xResources/Images/reload-button-mini.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CopyPNGFile ./SSToolkitResources.bundle/reload-button-mini.png Resources/Images/reload-button-mini.pnga775a7d3ad98b741^b2dab4d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/reload-button-mini.png0000000000000000^692"CopyPNGFile ./SSToolkitResources.bundle/reload-button-mini.png Resources/Images/reload-button-mini.png    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/reload-button-mini.png /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/reload-button-mini.png36"A3AE7527-800E-4DC3-86FB-B2E54B55DC18-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/reload-button-mini@2x.png Resources/Images/reload-button-mini@2x.png
+s395881939.680161
+e395881939.748892
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/reload-button-mini@2x.png
+xResources/Images/reload-button-mini@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"CopyPNGFile ./SSToolkitResources.bundle/reload-button-mini@2x.png Resources/Images/reload-button-mini@2x.png2a3aaed3ad98b741^d8bbbfd3ad98b741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/reload-button-mini@2x.png0000000000000000^712"CopyPNGFile "./SSToolkitResources.bundle/reload-button-mini@2x.png" "Resources/Images/reload-button-mini@2x.png"    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/reload-button-mini@2x.png" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/reload-button-mini@2x.png"36"9E98AED4-79AB-402C-9863-C2283E1FCAA6-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/reload-button.png Resources/Images/reload-button.png
+s395881939.688036
+e395881939.747451
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/reload-button.png
+xResources/Images/reload-button.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile ./SSToolkitResources.bundle/reload-button.png Resources/Images/reload-button.png2541b0d3ad98b741^8961bfd3ad98b741^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/reload-button.png0000000000000000^672"CopyPNGFile ./SSToolkitResources.bundle/reload-button.png Resources/Images/reload-button.png    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/reload-button.png /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/reload-button.png36"7C59B8A7-CAC3-4649-BEC1-D53276E94098-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/reload-button@2x.png Resources/Images/reload-button@2x.png
+s395881939.689677
+e395881939.748252
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/reload-button@2x.png
+xResources/Images/reload-button@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile ./SSToolkitResources.bundle/reload-button@2x.png Resources/Images/reload-button@2x.png8aadb0d3ad98b741^8a8fbfd3ad98b741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/reload-button@2x.png0000000000000000^692"CopyPNGFile "./SSToolkitResources.bundle/reload-button@2x.png" "Resources/Images/reload-button@2x.png"    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/reload-button@2x.png" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/reload-button@2x.png"36"F6AD0C65-453D-46C1-9749-1A1840B0F107-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/safari-button-mini.png Resources/Images/safari-button-mini.png
+s395881939.707771
+e395881939.767268
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/safari-button-mini.png
+xResources/Images/safari-button-mini.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CopyPNGFile ./SSToolkitResources.bundle/safari-button-mini.png Resources/Images/safari-button-mini.png4853b5d3ad98b741^7783c4d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/safari-button-mini.png0000000000000000^692"CopyPNGFile ./SSToolkitResources.bundle/safari-button-mini.png Resources/Images/safari-button-mini.png    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/safari-button-mini.png /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/safari-button-mini.png36"63CC2854-EEED-4C49-806C-9091F28EBD42-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/safari-button-mini@2x.png Resources/Images/safari-button-mini@2x.png
+s395881939.749231
+e395881939.807058
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/safari-button-mini@2x.png
+xResources/Images/safari-button-mini@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"CopyPNGFile ./SSToolkitResources.bundle/safari-button-mini@2x.png Resources/Images/safari-button-mini@2x.png0ceabfd3ad98b741^408aced3ad98b741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/safari-button-mini@2x.png0000000000000000^712"CopyPNGFile "./SSToolkitResources.bundle/safari-button-mini@2x.png" "Resources/Images/safari-button-mini@2x.png"    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/safari-button-mini@2x.png" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/safari-button-mini@2x.png"36"824EA5D6-B806-47FD-B88D-813BB0166690-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/safari-button.png Resources/Images/safari-button.png
+s395881939.749912
+e395881939.806776
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/safari-button.png
+xResources/Images/safari-button.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile ./SSToolkitResources.bundle/safari-button.png Resources/Images/safari-button.png3c15c0d3ad98b741^6894ced3ad98b741^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/safari-button.png0000000000000000^672"CopyPNGFile ./SSToolkitResources.bundle/safari-button.png Resources/Images/safari-button.png    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/safari-button.png /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/safari-button.png36"2C50C15E-7534-4B9C-9D93-18CD2821BA56-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/safari-button@2x.png Resources/Images/safari-button@2x.png
+s395881939.749950
+e395881939.806089
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/safari-button@2x.png
+xResources/Images/safari-button@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile ./SSToolkitResources.bundle/safari-button@2x.png Resources/Images/safari-button@2x.png1213c0d3ad98b741^fb5bced3ad98b741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/safari-button@2x.png0000000000000000^692"CopyPNGFile "./SSToolkitResources.bundle/safari-button@2x.png" "Resources/Images/safari-button@2x.png"    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/safari-button@2x.png" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/safari-button@2x.png"36"FB3658B7-65CF-4FE0-A5D9-12DAFF7754D0-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/stop-button-mini.png Resources/Images/stop-button-mini.png
+s395881939.771093
+e395881939.831528
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/stop-button-mini.png
+xResources/Images/stop-button-mini.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile ./SSToolkitResources.bundle/stop-button-mini.png Resources/Images/stop-button-mini.png4e80c5d3ad98b741^7efdd4d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/stop-button-mini.png0000000000000000^684"CopyPNGFile ./SSToolkitResources.bundle/stop-button-mini.png Resources/Images/stop-button-mini.png    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/stop-button-mini.png /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/stop-button-mini.png36"CC2B222A-1BF6-4D34-8C85-3284F7204B56-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/stop-button-mini@2x.png Resources/Images/stop-button-mini@2x.png
+s395881939.807273
+e395881939.858696
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/stop-button-mini@2x.png
+xResources/Images/stop-button-mini@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"CopyPNGFile ./SSToolkitResources.bundle/stop-button-mini@2x.png Resources/Images/stop-button-mini@2x.pnga8c3ced3ad98b741^4eeedbd3ad98b741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/stop-button-mini@2x.png0000000000000000^704"CopyPNGFile "./SSToolkitResources.bundle/stop-button-mini@2x.png" "Resources/Images/stop-button-mini@2x.png"    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/stop-button-mini@2x.png" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/stop-button-mini@2x.png"36"B924B57C-A9E9-41BF-9AB3-2BFBB4407A84-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/stop-button.png Resources/Images/stop-button.png
+s395881939.807614
+e395881939.860302
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/stop-button.png
+xResources/Images/stop-button.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"CopyPNGFile ./SSToolkitResources.bundle/stop-button.png Resources/Images/stop-button.png8dd5ced3ad98b741^c861dcd3ad98b741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/stop-button.png0000000000000000^664"CopyPNGFile ./SSToolkitResources.bundle/stop-button.png Resources/Images/stop-button.png    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/stop-button.png /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/stop-button.png36"1D4A34AC-4C1E-474D-946D-3107D2CDA620-
+
+CCopyPNGFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/stop-button@2x.png Resources/Images/stop-button@2x.png
+s395881939.807810
+e395881939.859342
+r1
+xCopyPNGFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/stop-button@2x.png
+xResources/Images/stop-button@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile ./SSToolkitResources.bundle/stop-button@2x.png Resources/Images/stop-button@2x.png97e6ced3ad98b741^d106dcd3ad98b741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/stop-button@2x.png0000000000000000^684"CopyPNGFile "./SSToolkitResources.bundle/stop-button@2x.png" "Resources/Images/stop-button@2x.png"    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/Images/stop-button@2x.png" "/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/stop-button@2x.png"36"F2B67863-C343-4F9A-99EF-970209027326-
+
+CCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/de.lproj/SSToolkit.strings Resources/de.lproj/SSToolkit.strings
+s395881939.068978
+e395881939.074365
+r1
+xCopyStringsFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/de.lproj/SSToolkit.strings
+xResources/de.lproj/SSToolkit.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/de.lproj/SSToolkit.stringseecf11d3ad98b741^4ca913d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/de.lproj/SSToolkit.strings0000000000000000^601"CopyStringsFile ./SSToolkitResources.bundle/de.lproj/SSToolkit.strings Resources/de.lproj/SSToolkit.strings    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/de.lproj -- Resources/de.lproj/SSToolkit.strings36"62AA6851-4824-4005-A257-65C22DF1A18F-
+
+CCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/en.lproj/SSToolkit.strings Resources/en.lproj/SSToolkit.strings
+s395881939.068252
+e395881939.071825
+r1
+xCopyStringsFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/en.lproj/SSToolkit.strings
+xResources/en.lproj/SSToolkit.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/en.lproj/SSToolkit.stringse59b11d3ad98b741^4c6c12d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/en.lproj/SSToolkit.strings0000000000000000^601"CopyStringsFile ./SSToolkitResources.bundle/en.lproj/SSToolkit.strings Resources/en.lproj/SSToolkit.strings    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/en.lproj -- Resources/en.lproj/SSToolkit.strings36"755D8A10-2656-4570-9E67-9F761740AF8F-
+
+CCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/es.lproj/SSToolkit.strings Resources/es.lproj/SSToolkit.strings
+s395881939.069863
+e395881939.076199
+r1
+xCopyStringsFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/es.lproj/SSToolkit.strings
+xResources/es.lproj/SSToolkit.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/es.lproj/SSToolkit.strings360112d3ad98b741^f12914d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/es.lproj/SSToolkit.strings0000000000000000^601"CopyStringsFile ./SSToolkitResources.bundle/es.lproj/SSToolkit.strings Resources/es.lproj/SSToolkit.strings    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/es.lproj -- Resources/es.lproj/SSToolkit.strings36"E4A7190E-0F8D-493F-959E-8DF06100A944-
+
+CCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/fr.lproj/SSToolkit.strings Resources/fr.lproj/SSToolkit.strings
+s395881939.069946
+e395881939.078579
+r1
+xCopyStringsFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/fr.lproj/SSToolkit.strings
+xResources/fr.lproj/SSToolkit.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/fr.lproj/SSToolkit.strings710312d3ad98b741^1a3414d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/fr.lproj/SSToolkit.strings0000000000000000^601"CopyStringsFile ./SSToolkitResources.bundle/fr.lproj/SSToolkit.strings Resources/fr.lproj/SSToolkit.strings    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/fr.lproj -- Resources/fr.lproj/SSToolkit.strings36"77D7848C-E078-40FF-BA0F-5F0EBC447900-
+
+CCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/id.lproj/SSToolkit.strings Resources/id.lproj/SSToolkit.strings
+s395881939.073325
+e395881939.081145
+r1
+xCopyStringsFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/id.lproj/SSToolkit.strings
+xResources/id.lproj/SSToolkit.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/id.lproj/SSToolkit.stringsa0e012d3ad98b741^c34615d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/id.lproj/SSToolkit.strings0000000000000000^601"CopyStringsFile ./SSToolkitResources.bundle/id.lproj/SSToolkit.strings Resources/id.lproj/SSToolkit.strings    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/id.lproj -- Resources/id.lproj/SSToolkit.strings36"AE083CEA-0F30-4908-9E89-FC18BA3ACEFD-
+
+CCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/it.lproj/SSToolkit.strings Resources/it.lproj/SSToolkit.strings
+s395881939.075547
+e395881939.081326
+r1
+xCopyStringsFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/it.lproj/SSToolkit.strings
+xResources/it.lproj/SSToolkit.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/it.lproj/SSToolkit.strings437113d3ad98b741^d2e115d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/it.lproj/SSToolkit.strings0000000000000000^601"CopyStringsFile ./SSToolkitResources.bundle/it.lproj/SSToolkit.strings Resources/it.lproj/SSToolkit.strings    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/it.lproj -- Resources/it.lproj/SSToolkit.strings36"CE424EB0-C246-49E2-AD39-282EC73A5BE2-
+
+CCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/ja.lproj/SSToolkit.strings Resources/ja.lproj/SSToolkit.strings
+s395881939.077773
+e395881939.085304
+r1
+xCopyStringsFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/ja.lproj/SSToolkit.strings
+xResources/ja.lproj/SSToolkit.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/ja.lproj/SSToolkit.stringse20214d3ad98b741^63ef15d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/ja.lproj/SSToolkit.strings0000000000000000^601"CopyStringsFile ./SSToolkitResources.bundle/ja.lproj/SSToolkit.strings Resources/ja.lproj/SSToolkit.strings    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/ja.lproj -- Resources/ja.lproj/SSToolkit.strings36"178915BC-3C16-4B5C-B80E-5F60E7419651-
+
+CCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/ko.lproj/SSToolkit.strings Resources/ko.lproj/SSToolkit.strings
+s395881939.080351
+e395881939.087187
+r1
+xCopyStringsFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/ko.lproj/SSToolkit.strings
+xResources/ko.lproj/SSToolkit.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/ko.lproj/SSToolkit.strings3ab014d3ad98b741^8c8416d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/ko.lproj/SSToolkit.strings0000000000000000^601"CopyStringsFile ./SSToolkitResources.bundle/ko.lproj/SSToolkit.strings Resources/ko.lproj/SSToolkit.strings    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/ko.lproj -- Resources/ko.lproj/SSToolkit.strings36"3F8C81D2-6EA3-4336-B8A7-D2C560B893A0-
+
+CCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/ms.lproj/SSToolkit.strings Resources/ms.lproj/SSToolkit.strings
+s395881939.082511
+e395881939.087009
+r1
+xCopyStringsFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/ms.lproj/SSToolkit.strings
+xResources/ms.lproj/SSToolkit.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/ms.lproj/SSToolkit.strings973915d3ad98b741^028116d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/ms.lproj/SSToolkit.strings0000000000000000^601"CopyStringsFile ./SSToolkitResources.bundle/ms.lproj/SSToolkit.strings Resources/ms.lproj/SSToolkit.strings    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/ms.lproj -- Resources/ms.lproj/SSToolkit.strings36"722E1A19-0951-449D-AFD3-172CB0F856B9-
+
+CCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/nl.lproj/SSToolkit.strings Resources/nl.lproj/SSToolkit.strings
+s395881939.082861
+e395881939.088188
+r1
+xCopyStringsFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/nl.lproj/SSToolkit.strings
+xResources/nl.lproj/SSToolkit.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/nl.lproj/SSToolkit.stringsda5415d3ad98b741^40c016d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/nl.lproj/SSToolkit.strings0000000000000000^601"CopyStringsFile ./SSToolkitResources.bundle/nl.lproj/SSToolkit.strings Resources/nl.lproj/SSToolkit.strings    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/nl.lproj -- Resources/nl.lproj/SSToolkit.strings36"9AC11ADD-BF57-4DCA-B837-C55B74EDF2FC-
+
+CCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/pt.lproj/SSToolkit.strings Resources/pt.lproj/SSToolkit.strings
+s395881939.089196
+e395881939.093298
+r1
+xCopyStringsFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/pt.lproj/SSToolkit.strings
+xResources/pt.lproj/SSToolkit.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/pt.lproj/SSToolkit.stringsc3ef16d3ad98b741^e1eb17d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/pt.lproj/SSToolkit.strings0000000000000000^601"CopyStringsFile ./SSToolkitResources.bundle/pt.lproj/SSToolkit.strings Resources/pt.lproj/SSToolkit.strings    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/pt.lproj -- Resources/pt.lproj/SSToolkit.strings36"78DBCF16-BB0E-4043-94A6-7F3679864E0B-
+
+CCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/pt_PT.lproj/SSToolkit.strings Resources/pt_PT.lproj/SSToolkit.strings
+s395881939.086933
+e395881939.090798
+r1
+xCopyStringsFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/pt_PT.lproj/SSToolkit.strings
+xResources/pt_PT.lproj/SSToolkit.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy Resources/pt_PT.lproj/SSToolkit.strings035e16d3ad98b741^8a3e17d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/pt_PT.lproj/SSToolkit.strings0000000000000000^613"CopyStringsFile ./SSToolkitResources.bundle/pt_PT.lproj/SSToolkit.strings Resources/pt_PT.lproj/SSToolkit.strings    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/pt_PT.lproj -- Resources/pt_PT.lproj/SSToolkit.strings36"4E9F3159-9B7A-40C6-807F-E40A053E2E41-
+
+CCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/ru.lproj/SSToolkit.strings Resources/ru.lproj/SSToolkit.strings
+s395881939.089277
+e395881939.091992
+r1
+xCopyStringsFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/ru.lproj/SSToolkit.strings
+xResources/ru.lproj/SSToolkit.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/ru.lproj/SSToolkit.stringsc3ef16d3ad98b741^f69517d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/ru.lproj/SSToolkit.strings0000000000000000^601"CopyStringsFile ./SSToolkitResources.bundle/ru.lproj/SSToolkit.strings Resources/ru.lproj/SSToolkit.strings    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/ru.lproj -- Resources/ru.lproj/SSToolkit.strings36"67723EDF-5018-48C6-AB6E-D949227F3B12-
+
+CCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/sv.lproj/SSToolkit.strings Resources/sv.lproj/SSToolkit.strings
+s395881939.089638
+e395881939.094362
+r1
+xCopyStringsFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/sv.lproj/SSToolkit.strings
+xResources/sv.lproj/SSToolkit.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/sv.lproj/SSToolkit.stringsd90917d3ad98b741^fa2718d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/sv.lproj/SSToolkit.strings0000000000000000^601"CopyStringsFile ./SSToolkitResources.bundle/sv.lproj/SSToolkit.strings Resources/sv.lproj/SSToolkit.strings    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/sv.lproj -- Resources/sv.lproj/SSToolkit.strings36"CCE29730-1A34-4136-A864-2B1D6ECA9493-
+
+CCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/zh_Hans.lproj/SSToolkit.strings Resources/zh_Hans.lproj/SSToolkit.strings
+s395881939.092020
+e395881939.095862
+r1
+xCopyStringsFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/zh_Hans.lproj/SSToolkit.strings
+xResources/zh_Hans.lproj/SSToolkit.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy Resources/zh_Hans.lproj/SSToolkit.strings72a817d3ad98b741^598a18d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/zh_Hans.lproj/SSToolkit.strings0000000000000000^621"CopyStringsFile ./SSToolkitResources.bundle/zh_Hans.lproj/SSToolkit.strings Resources/zh_Hans.lproj/SSToolkit.strings    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/zh_Hans.lproj -- Resources/zh_Hans.lproj/SSToolkit.strings36"B728A99B-68F0-4584-BF88-6C38BABF6780-
+
+CCopyStringsFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/zh_Hant.lproj/SSToolkit.strings Resources/zh_Hant.lproj/SSToolkit.strings
+s395881939.093179
+e395881939.096696
+r1
+xCopyStringsFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/zh_Hant.lproj/SSToolkit.strings
+xResources/zh_Hant.lproj/SSToolkit.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy Resources/zh_Hant.lproj/SSToolkit.stringsf1f317d3ad98b741^dfc018d3ad98b741^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/zh_Hant.lproj/SSToolkit.strings0000000000000000^621"CopyStringsFile ./SSToolkitResources.bundle/zh_Hant.lproj/SSToolkit.strings Resources/zh_Hant.lproj/SSToolkit.strings    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/zh_Hant.lproj -- Resources/zh_Hant.lproj/SSToolkit.strings36"1A176D37-5950-48E9-B3D3-CED50A768529-
+
+CProcessInfoPlistFile /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/Info.plist Resources/SSToolkitResources-Info.plist
+s395881939.053251
+e395881939.059212
+r1
+xProcessInfoPlistFile
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/Info.plist
+xResources/SSToolkitResources-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Process Resources/SSToolkitResources-Info.plist36cb0dd3ad98b741^f6400fd3ad98b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/Resources/SSToolkitResources-Info.plist0000000000000000^592"ProcessInfoPlistFile ./SSToolkitResources.bundle/Info.plist Resources/SSToolkitResources-Info.plist    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility Resources/SSToolkitResources-Info.plist -expandbuildsettings -format binary -platform iphoneos -o /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/Info.plist36"AD0B06C9-5638-4E88-9BAE-B2D0C2994201-
+
+CTouch /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle
+s395881939.868652
+e395881939.875276
+r1
+xTouch
+x/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Touch /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle3e7bded3ad98b741^9813e0d3ad98b741^---0#0#0#--410"Touch ./SSToolkitResources.bundle    cd /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle36"8A0C1E34-EEAB-41C2-953C-0A266C9EF172-
+
