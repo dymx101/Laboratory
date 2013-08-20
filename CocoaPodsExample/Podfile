@@ -1,5 +1,9 @@
-platform :ios
+platform :ios, '5.0'
 
 pod 'AFNetworking', '0.9.1'
 pod 'SSToolkit'
 pod 'ConciseKit'
+pod 'Nimbus/AttributedLabel'
+pod 'EGOTableViewPullRefresh'
+pod 'KoaPullToRefresh'
+pod 'HKRefreshControl'

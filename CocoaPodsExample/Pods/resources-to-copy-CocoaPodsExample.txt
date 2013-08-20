@@ -1,1 +1,1 @@
-/Users/dongyiming/Desktop/CocoaPodsExample/Pods/SSToolkit/SSToolkitResources.bundle
+/Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/SSToolkitResources.bundle
