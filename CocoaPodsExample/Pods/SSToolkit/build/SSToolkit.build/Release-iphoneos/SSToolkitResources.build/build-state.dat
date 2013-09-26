@@ -3,36 +3,36 @@ v5
 r1
 cCheck dependencies
 cProcessInfoPlistFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/Info.plist Resources/SSToolkitResources-Info.plist
-cCopyStringsFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/en.lproj/SSToolkit.strings Resources/en.lproj/SSToolkit.strings
 cCopyStringsFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/de.lproj/SSToolkit.strings Resources/de.lproj/SSToolkit.strings
+cCopyStringsFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/en.lproj/SSToolkit.strings Resources/en.lproj/SSToolkit.strings
 cCopyStringsFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/es.lproj/SSToolkit.strings Resources/es.lproj/SSToolkit.strings
 cCopyStringsFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/fr.lproj/SSToolkit.strings Resources/fr.lproj/SSToolkit.strings
-cCopyStringsFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/id.lproj/SSToolkit.strings Resources/id.lproj/SSToolkit.strings
 cCopyStringsFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/it.lproj/SSToolkit.strings Resources/it.lproj/SSToolkit.strings
 cCopyStringsFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/ja.lproj/SSToolkit.strings Resources/ja.lproj/SSToolkit.strings
+cCopyStringsFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/id.lproj/SSToolkit.strings Resources/id.lproj/SSToolkit.strings
 cCopyStringsFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/ko.lproj/SSToolkit.strings Resources/ko.lproj/SSToolkit.strings
 cCopyStringsFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/ms.lproj/SSToolkit.strings Resources/ms.lproj/SSToolkit.strings
 cCopyStringsFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/nl.lproj/SSToolkit.strings Resources/nl.lproj/SSToolkit.strings
-cCopyStringsFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/pt_PT.lproj/SSToolkit.strings Resources/pt_PT.lproj/SSToolkit.strings
 cCopyStringsFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/pt.lproj/SSToolkit.strings Resources/pt.lproj/SSToolkit.strings
+cCopyStringsFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/pt_PT.lproj/SSToolkit.strings Resources/pt_PT.lproj/SSToolkit.strings
 cCopyStringsFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/ru.lproj/SSToolkit.strings Resources/ru.lproj/SSToolkit.strings
-cCopyStringsFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/sv.lproj/SSToolkit.strings Resources/sv.lproj/SSToolkit.strings
 cCopyStringsFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/zh_Hans.lproj/SSToolkit.strings Resources/zh_Hans.lproj/SSToolkit.strings
+cCopyStringsFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/sv.lproj/SSToolkit.strings Resources/sv.lproj/SSToolkit.strings
 cCopyStringsFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/zh_Hant.lproj/SSToolkit.strings Resources/zh_Hant.lproj/SSToolkit.strings
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/hud-check@2x.png Resources/Images/hud-check@2x.png
+cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/hud-check.png Resources/Images/hud-check.png
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/hud-x.png Resources/Images/hud-x.png
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/hud-x@2x.png Resources/Images/hud-x@2x.png
-cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/hud-check.png Resources/Images/hud-check.png
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/gray-star.png Resources/Images/gray-star.png
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/gray-star@2x.png Resources/Images/gray-star@2x.png
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/orange-star.png Resources/Images/orange-star.png
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/orange-star@2x.png Resources/Images/orange-star@2x.png
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldBackground.png Resources/Images/SSAddressBarTextFieldBackground.png
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldBackground@2x.png Resources/Images/SSAddressBarTextFieldBackground@2x.png
-cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldReload.png Resources/Images/SSAddressBarTextFieldReload.png
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldReload@2x.png Resources/Images/SSAddressBarTextFieldReload@2x.png
-cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldStop.png Resources/Images/SSAddressBarTextFieldStop.png
+cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldReload.png Resources/Images/SSAddressBarTextFieldReload.png
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldStop@2x.png Resources/Images/SSAddressBarTextFieldStop@2x.png
+cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldStop.png Resources/Images/SSAddressBarTextFieldStop.png
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarButton.png Resources/Images/UISegmentBarButton.png
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarButton@2x.png Resources/Images/UISegmentBarButton@2x.png
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarButtonHighlighted.png Resources/Images/UISegmentBarButtonHighlighted.png
@@ -43,8 +43,8 @@ cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/UISegmentBarDividerHighlighted@2x.png Resources/Images/UISegmentBarDividerHighlighted@2x.png
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/action-button-mini.png Resources/Images/action-button-mini.png
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/action-button-mini@2x.png Resources/Images/action-button-mini@2x.png
-cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/action-button.png Resources/Images/action-button.png
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/action-button@2x.png Resources/Images/action-button@2x.png
+cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/action-button.png Resources/Images/action-button.png
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/back-button-mini.png Resources/Images/back-button-mini.png
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/back-button-mini@2x.png Resources/Images/back-button-mini@2x.png
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/back-button.png Resources/Images/back-button.png
@@ -59,12 +59,12 @@ cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/reload-button@2x.png Resources/Images/reload-button@2x.png
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/safari-button-mini.png Resources/Images/safari-button-mini.png
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/safari-button-mini@2x.png Resources/Images/safari-button-mini@2x.png
+cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/safari-button.png Resources/Images/safari-button.png
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/safari-button@2x.png Resources/Images/safari-button@2x.png
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/stop-button-mini.png Resources/Images/stop-button-mini.png
-cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/safari-button.png Resources/Images/safari-button.png
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/stop-button-mini@2x.png Resources/Images/stop-button-mini@2x.png
-cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/stop-button.png Resources/Images/stop-button.png
 cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/stop-button@2x.png Resources/Images/stop-button@2x.png
+cCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/stop-button.png Resources/Images/stop-button.png
 cTouch /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle
 
 N/Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle
@@ -1206,7 +1206,7 @@ s1394
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4966f1e7689ab741^e15e05e8689ab741^---0#1#0#--18"Check dependencies36"EB8B077D-0185-4279-B92E-70E322F38ADB-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf14b597410dfb741^bd186e7410dfb741^---0#1#0#--18"Check dependencies36"51CCF50F-228E-43FA-A892-E1F371BE8B6D-
 
 CCopyPNGFile /Users/dongyiming/Daniel/Code/Git/Laboratory/CocoaPodsExample/Pods/SSToolkit/./SSToolkitResources.bundle/SSAddressBarTextFieldBackground.png Resources/Images/SSAddressBarTextFieldBackground.png
 r0

@@ -12,6 +12,12 @@
 #define COCOAPODS_VERSION_MINOR_AFNetworking 9
 #define COCOAPODS_VERSION_PATCH_AFNetworking 1
 
+// AFOAuth1Client
+#define COCOAPODS_POD_AVAILABLE_AFOAuth1Client
+#define COCOAPODS_VERSION_MAJOR_AFOAuth1Client 0
+#define COCOAPODS_VERSION_MINOR_AFOAuth1Client 2
+#define COCOAPODS_VERSION_PATCH_AFOAuth1Client 1
+
 // ConciseKit
 #define COCOAPODS_POD_AVAILABLE_ConciseKit
 #define COCOAPODS_VERSION_MAJOR_ConciseKit 0
@@ -42,6 +48,18 @@
 #define COCOAPODS_VERSION_MINOR_KoaPullToRefresh 0
 #define COCOAPODS_VERSION_PATCH_KoaPullToRefresh 5
 
+// LUKeychainAccess
+#define COCOAPODS_POD_AVAILABLE_LUKeychainAccess
+#define COCOAPODS_VERSION_MAJOR_LUKeychainAccess 1
+#define COCOAPODS_VERSION_MINOR_LUKeychainAccess 0
+#define COCOAPODS_VERSION_PATCH_LUKeychainAccess 1
+
+// NSData+Base64
+#define COCOAPODS_POD_AVAILABLE_NSData_Base64
+#define COCOAPODS_VERSION_MAJOR_NSData_Base64 1
+#define COCOAPODS_VERSION_MINOR_NSData_Base64 0
+#define COCOAPODS_VERSION_PATCH_NSData_Base64 0
+
 // Nimbus/AttributedLabel
 #define COCOAPODS_POD_AVAILABLE_Nimbus_AttributedLabel
 #define COCOAPODS_VERSION_MAJOR_Nimbus_AttributedLabel 1
@@ -54,9 +72,33 @@
 #define COCOAPODS_VERSION_MINOR_Nimbus_Core 0
 #define COCOAPODS_VERSION_PATCH_Nimbus_Core 0
 
+// OAuthCore
+#define COCOAPODS_POD_AVAILABLE_OAuthCore
+#define COCOAPODS_VERSION_MAJOR_OAuthCore 0
+#define COCOAPODS_VERSION_MINOR_OAuthCore 0
+#define COCOAPODS_VERSION_PATCH_OAuthCore 1
+
+// SHOmniAuth
+#define COCOAPODS_POD_AVAILABLE_SHOmniAuth
+#define COCOAPODS_VERSION_MAJOR_SHOmniAuth 0
+#define COCOAPODS_VERSION_MINOR_SHOmniAuth 2
+#define COCOAPODS_VERSION_PATCH_SHOmniAuth 1
+
+// SHOmniAuthTwitter
+#define COCOAPODS_POD_AVAILABLE_SHOmniAuthTwitter
+#define COCOAPODS_VERSION_MAJOR_SHOmniAuthTwitter 0
+#define COCOAPODS_VERSION_MINOR_SHOmniAuthTwitter 2
+#define COCOAPODS_VERSION_PATCH_SHOmniAuthTwitter 9
+
 // SSToolkit
 #define COCOAPODS_POD_AVAILABLE_SSToolkit
 #define COCOAPODS_VERSION_MAJOR_SSToolkit 1
 #define COCOAPODS_VERSION_MINOR_SSToolkit 0
 #define COCOAPODS_VERSION_PATCH_SSToolkit 4
+
+// TWReverseAuth
+#define COCOAPODS_POD_AVAILABLE_TWReverseAuth
+#define COCOAPODS_VERSION_MAJOR_TWReverseAuth 0
+#define COCOAPODS_VERSION_MINOR_TWReverseAuth 1
+#define COCOAPODS_VERSION_PATCH_TWReverseAuth 0
 
