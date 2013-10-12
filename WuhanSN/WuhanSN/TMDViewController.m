@@ -7,23 +7,44 @@
 //
 
 #import "TMDViewController.h"
+#import "TMDDataFactory.h"
+#import "SnData.h"
 
 @interface TMDViewController ()
 
 @end
 
 @implementation TMDViewController
+{
+    NSArray         *datas;
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    datas = [TMDDataFactory snDatas];
 }
 
-- (void)didReceiveMemoryWarning
+-(int)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    return datas.count;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    int row = indexPath.row;
+    static NSString *cellId = @"cellId";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellId];
+    if (cell == nil)
+    {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellId];
+    }
+    
+    SnData *data = datas[row];
+    cell.textLabel.text = data.name;
+    
+    return cell;
 }
 
 @end

@@ -23,6 +23,7 @@ static NSMutableArray *snDatas = nil;
         data.name = @"凤凰水上明珠";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"曾经理":@"13886195879"}];
+        data.address = @"中山路312号凤凰大厦B座";
         [snDatas addObject:data];
         
         data = [SnData new];
