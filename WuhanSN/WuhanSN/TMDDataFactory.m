@@ -39,25 +39,37 @@ static NSMutableArray *snDatas = nil;
         // 30.580653, 114.266202
         data.longitude = 114.266202;
         data.latitude = 30.580653;
-        data.address = @"武汉汉口解放大道1131号（航空路立交桥旁）";
+        data.address = @"汉口解放大道1131号（航空路立交桥旁）";
         [snDatas addObject:data];
         
         data = [SnData new];
         data.name = @"汇申会所";
         data.district = SnDistrictHankou;
         data.contacts = @[@{@"王经理":@"15927093911"}, @{@"李经理":@"15971499391"}, @{@"钟经理":@"13871171531"}];
+        // 30.602255, 114.310985
+        data.longitude = 114.310985;
+        data.latitude = 30.602255;
+        data.address = @"江岸区沿江大道234号";
         [snDatas addObject:data];
         
         data = [SnData new];
-        data.name = @"循礼门某会所";
+        data.name = @"循礼门会所";
         data.district = SnDistrictHankou;
         data.contacts = @[@{@"张经理":@"15972039022"}];
+        // 30.586091, 114.284307
+        data.longitude = 114.284307;
+        data.latitude = 30.586091;
+        data.address = @"江汉区解放大道1413号";
         [snDatas addObject:data];
         
         data = [SnData new];
-        data.name = @"军悦";
+        data.name = @"军悦假日酒店";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"姚经理":@"13720387073"}];
+        // 30.529281, 114.370320
+        data.longitude = 114.370320;
+        data.latitude = 30.529281;
+        data.address = @"洪山区八一路415号";
         [snDatas addObject:data];
         
         data = [SnData new];
