@@ -23,20 +23,23 @@ static NSMutableArray *snDatas = nil;
         snDatas = [NSMutableArray array];
         
         SnData *data = [SnData new];
-        data.name = @"凤凰水上明珠";
+        data.name = @"水上明珠国际俱乐部";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"曾经理":@"13886195879"}];
-        data.address = @"中山路312号凤凰大厦B座";
-        
         // 30.553392, 114.315523
         data.longitude = 114.315523f;
         data.latitude = 30.553392f;
+        data.address = @"中山路312号凤凰大厦B座";
         [snDatas addObject:data];
         
         data = [SnData new];
         data.name = @"长江大酒店";
         data.district = SnDistrictHankou;
         data.contacts = @[@{@"少鹰":@"15271909791"}];
+        // 30.580653, 114.266202
+        data.longitude = 114.266202;
+        data.latitude = 30.580653;
+        data.address = @"武汉汉口解放大道1131号（航空路立交桥旁）";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -249,6 +252,12 @@ static NSMutableArray *snDatas = nil;
         data.name = @"路虎私人会所";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"经理":@"15171496299"}];
+        [snDatas addObject:data];
+        
+        data = [SnData new];
+        data.name = @"楚民";
+        data.district = SnDistrictWuchang;
+        data.contacts = @[@{@"小妍":@"13277971591"}];
         [snDatas addObject:data];
     }
     
