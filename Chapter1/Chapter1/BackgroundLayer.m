@@ -29,6 +29,9 @@
         [backgroundImage setPosition:ccp(screensize.width / 2, screensize.height / 2)];
         
         [self addChild:backgroundImage z:0 tag:0];
+        
+//        id waveAction = [CCWaves actionWithDuration:20 size:CGSizeMake(20, 15) waves:5 amplitude:20 horizontal:NO vertical:YES];
+//        [backgroundImage runAction:[CCRepeatForever actionWithAction:waveAction]];
     }
     return self;
 }

@@ -23,6 +23,8 @@
 		EA9E506017ED762C0051C6A8 /* GameCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9E505F17ED762C0051C6A8 /* GameCharacter.m */; };
 		EA9E6C5717EFE29500474672 /* RadarDish.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9E6C5617EFE29500474672 /* RadarDish.m */; };
 		EA9E6C5A17F014F000474672 /* Viking.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9E6C5917F014F000474672 /* Viking.m */; };
+		EAA051B817F567D0004B93A6 /* SpaceVikingFont.fnt in Resources */ = {isa = PBXBuildFile; fileRef = EAA051B617F567D0004B93A6 /* SpaceVikingFont.fnt */; };
+		EAA051B917F567D0004B93A6 /* SpaceVikingFont.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA051B717F567D0004B93A6 /* SpaceVikingFont.png */; };
 		EAFF2A8817EA7DB600376D5C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFF2A8717EA7DB600376D5C /* QuartzCore.framework */; };
 		EAFF2A8A17EA7DB600376D5C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFF2A8917EA7DB600376D5C /* OpenGLES.framework */; };
 		EAFF2A8C17EA7DB600376D5C /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFF2A8B17EA7DB600376D5C /* OpenAL.framework */; };
@@ -398,6 +400,8 @@
 		EA9E6C5617EFE29500474672 /* RadarDish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarDish.m; sourceTree = "<group>"; };
 		EA9E6C5817F014EF00474672 /* Viking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Viking.h; sourceTree = "<group>"; };
 		EA9E6C5917F014F000474672 /* Viking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Viking.m; sourceTree = "<group>"; };
+		EAA051B617F567D0004B93A6 /* SpaceVikingFont.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SpaceVikingFont.fnt; sourceTree = "<group>"; };
+		EAA051B717F567D0004B93A6 /* SpaceVikingFont.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpaceVikingFont.png; sourceTree = "<group>"; };
 		EAFF2A8417EA7DB600376D5C /* Chapter1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFF2A8717EA7DB600376D5C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		EAFF2A8917EA7DB600376D5C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -923,6 +927,8 @@
 		EA9E504517ED1B280051C6A8 /* Plists */ = {
 			isa = PBXGroup;
 			children = (
+				EAA051B617F567D0004B93A6 /* SpaceVikingFont.fnt */,
+				EAA051B717F567D0004B93A6 /* SpaceVikingFont.png */,
 				EA9E504817ED208D0051C6A8 /* EnemyRobot.plist */,
 				EA98A75C17F2EA0500A27E70 /* PhaserBullet.plist */,
 				EA9E504917ED208D0051C6A8 /* Health.plist */,
@@ -2134,6 +2140,8 @@
 				EA9E505017ED208D0051C6A8 /* RadarDish.plist in Resources */,
 				EA9E505117ED208D0051C6A8 /* Viking.plist in Resources */,
 				EA98A75D17F2EA0500A27E70 /* PhaserBullet.plist in Resources */,
+				EAA051B817F567D0004B93A6 /* SpaceVikingFont.fnt in Resources */,
+				EAA051B917F567D0004B93A6 /* SpaceVikingFont.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

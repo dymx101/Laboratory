@@ -24,5 +24,7 @@
 @property (nonatomic, retain) CCAnimation *headHitAnim;
 @property (nonatomic, retain) CCAnimation *robotDeathAnim;
 
+@property (nonatomic,assign) CCLabelBMFont *myDebugLabel;
+
 -(void)initAnimations;
 @end

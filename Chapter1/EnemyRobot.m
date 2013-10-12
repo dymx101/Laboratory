@@ -20,6 +20,11 @@
     [_torsoHitAnim release];
     [_headHitAnim release];
     [_robotDeathAnim release];
+
+#ifdef DEBUG
+    [_myDebugLabel removeFromParentAndCleanup:YES];
+    _myDebugLabel = nil;
+#endif
     
     [super dealloc];
 }
@@ -182,9 +187,53 @@
     }
 }
 
+-(void)setDebugLabelTextAndPosition
+{
+    CGPoint newPosition = self.position;
+    NSString *labelString = [NSString stringWithFormat:@"X: %.2f\nY: %.2f\n", newPosition.x, newPosition.y];
+    
+    switch (self.characterState) {
+        case kStateSpawning:
+            _myDebugLabel.string = [labelString stringByAppendingString:@"Spawning"];
+            break;
+        
+        case kStateIdle:
+            _myDebugLabel.string = [labelString stringByAppendingString:@"Idle"];
+            break;
+            
+        case kStateWalking:
+            _myDebugLabel.string = [labelString stringByAppendingString:@"Walking"];
+            break;
+            
+        case kStateAttacking:
+            _myDebugLabel.string = [labelString stringByAppendingString:@"Attacking"];
+            break;
+            
+        case kStateTakingDamage:
+            _myDebugLabel.string = [labelString stringByAppendingString:@"Taking Damage"];
+            break;
+            
+        case kStateDead:
+            _myDebugLabel.string = [labelString stringByAppendingString:@"Dead"];
+            break;
+            
+        default:
+            _myDebugLabel.string = [labelString stringByAppendingString:@"Unknown State"];
+            break;
+    }
+    
+    float yOffset = self.screenSize.height * .195f;
+    newPosition = ccp(newPosition.x, newPosition.y + yOffset);
+    _myDebugLabel.position = newPosition;
+}
+
 -(void)updateStateWithDeltaTime:(ccTime)deltaTime andListOfGameObjects:(CCArray *)listOfGameObjects
 {
     [self checkAndClampSpritePosition];
+    
+#ifdef DEBUG
+    [self setDebugLabelTextAndPosition];
+#endif
     
     if (self.characterState != kStateDead && self.characterHealth <= 0)
     {

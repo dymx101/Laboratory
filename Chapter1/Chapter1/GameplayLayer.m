@@ -52,10 +52,24 @@
         
         [self createObjectOfType:kEnemyTypeRadarDish withHealth:100 atLocation:ccp(screensize.width * .878f, screensize.height * .13f) withZValue:10];
         
+        // add game begin label
+        CCLabelBMFont *gameBeginLabel = [CCLabelBMFont labelWithString:@"Game Start" fntFile:@"SpaceVikingFont.fnt"];
+        //CCLabelTTF *gameBeginLabel = [CCLabelTTF labelWithString:@"Game Start" fontName:@"Helvetica" fontSize:64];
+        gameBeginLabel.position = ccp(screensize.width / 2, screensize.height / 2);
+        [self addChild:gameBeginLabel];
+        id labelAction = [CCSpawn actions:[CCScaleBy actionWithDuration:2.f scale:4.f]
+                          , [CCFadeOut actionWithDuration:2.f]
+                          , nil];
+        [gameBeginLabel runAction:labelAction];
+        
+        // schedual update
         [self scheduleUpdate];
         
         [self schedule:@selector(addEnemy) interval:10.f];
         [self createObjectOfType:kEnemyTypeSpaceCargoShip withHealth:0 atLocation:ccp(screensize.width * -.5f, screensize.height * .74f) withZValue:50];
+        
+//        id waveAction = [CCWaves actionWithDuration:20 size:CGSizeMake(15, 20) waves:5 amplitude:20 horizontal:NO vertical:YES];
+//        [self runAction:[CCRepeatForever actionWithAction:waveAction]];
         
         // create viking sprite from cache
 //        vikingSprite = [CCSprite spriteWithSpriteFrameName:@"sv_anim_1.png"];
@@ -231,6 +245,12 @@
         [enemyRobot changeState:kStateSpawning];
         [sceneSpriteBatchNode addChild:enemyRobot z:ZValue];
         enemyRobot.delegate = self;
+        
+#ifdef DEBUG
+        CCLabelBMFont *debugLabel = [CCLabelBMFont labelWithString:@"NoneNone" fntFile:@"SpaceVikingFont.fnt"];
+        [self addChild:debugLabel];
+        enemyRobot.myDebugLabel = debugLabel;
+#endif
         [enemyRobot release];
     }
     else if (kEnemyTypeSpaceCargoShip == objectType)
