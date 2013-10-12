@@ -167,23 +167,23 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
-        data.name = @"云鼎";
+        data.name = @"云鼎商务酒店";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"唐经理":@"13517265386"}, @{@"李经理":@"18908655655"}
                           , @{@"叶经理":@"13545152309"}, @{@"余经理":@"15072496895"}
                           , @{@"牛经理":@"13667264911"}];
-        data.longitude = 0;
-        data.latitude = 0;
-        data.address = @"";
+        data.longitude = 114.359576;
+        data.latitude = 30.573901;
+        data.address = @"武昌区中北路岳家嘴154号";
         [snDatas addObject:data];
         
         data = [SnData new];
-        data.name = @"雄楚国际";
+        data.name = @"雄楚国际大酒店";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"李经理":@"15927113881"}];
-        data.longitude = 0;
-        data.latitude = 0;
-        data.address = @"";
+        data.longitude = 114.361271;
+        data.latitude = 30.510103;
+        data.address = @"洪山区雄楚大道335号";
         [snDatas addObject:data];
         
         data = [SnData new];
