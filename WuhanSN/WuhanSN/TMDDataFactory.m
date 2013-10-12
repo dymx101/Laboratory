@@ -122,48 +122,48 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
-        data.name = @"桂林山水";
+        data.name = @"桂林山水洗浴會所";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"余经理":@"13517255523"}];
-        data.longitude = 0;
-        data.latitude = 0;
-        data.address = @"";
+        data.longitude = 114.318905;
+        data.latitude = 30.545219;
+        data.address = @"武昌区中山路309号广西大厦3层";
         [snDatas addObject:data];
         
         data = [SnData new];
-        data.name = @"御泉";
+        data.name = @"御泉会所";
         data.district = SnDistrictHankou;
         data.contacts = @[@{@"王经理":@"13995555305"}];
-        data.longitude = 0;
-        data.latitude = 0;
-        data.address = @"";
+        data.longitude = 114.268437;
+        data.latitude = 30.601553;
+        data.address = @"江汉区北湖横路";
         [snDatas addObject:data];
         
         data = [SnData new];
-        data.name = @"罗马";
+        data.name = @"罗马沐足休闲会所";
         data.district = SnDistrictHankou;
         data.contacts = @[@{@"小蓝经理":@"15926254164"}, @{@"王经理":@"13476106675"}];
-        data.longitude = 0;
-        data.latitude = 0;
-        data.address = @"";
+        data.longitude = 114.289428;
+        data.latitude = 30.588469;
+        data.address = @"江岸区黄石路";
         [snDatas addObject:data];
         
         data = [SnData new];
         data.name = @"时代会所";
         data.district = SnDistrictHankou;
         data.contacts = @[@{@"经理":@"15171420008"}];
-        data.longitude = 0;
-        data.latitude = 0;
-        data.address = @"";
+        data.longitude = 114.253438;
+        data.latitude = 30.578351;
+        data.address = @"硚口区解放大道558号";
         [snDatas addObject:data];
         
         data = [SnData new];
-        data.name = @"弘毅";
+        data.name = @"弘毅大酒店";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"文经理":@"13554059185"}];
-        data.longitude = 0;
-        data.latitude = 0;
-        data.address = @"";
+        data.longitude = 114.355708;
+        data.latitude = 30.551382;
+        data.address = @"武昌区东湖路136号";
         [snDatas addObject:data];
         
         data = [SnData new];
