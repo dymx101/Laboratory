@@ -27,8 +27,10 @@ static NSMutableArray *snDatas = nil;
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"曾经理":@"13886195879"}];
         data.address = @"中山路312号凤凰大厦B座";
-        data.longitude = 114.3223f;
-        data.latitude = 30.558785f;
+        
+        // 30.553392, 114.315523
+        data.longitude = 114.315523f;
+        data.latitude = 30.553392f;
         [snDatas addObject:data];
         
         data = [SnData new];

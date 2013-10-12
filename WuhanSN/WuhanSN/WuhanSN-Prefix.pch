@@ -11,4 +11,7 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+#import <MapKit/MapKit.h>
 #endif
+
+#define METERS_PER_MILE 1609.344
