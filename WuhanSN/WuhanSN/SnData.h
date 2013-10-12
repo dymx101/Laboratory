@@ -24,7 +24,10 @@ typedef enum
 @property (assign)  SnDistrict              district;
 @property (copy)    NSString                *address;
 
-@property (copy)    NSArray          *contacts;
+@property (copy)    NSArray                 *contacts;
 @property (copy)    NSString                *description;
+
+@property (assign)  float                   longitude;
+@property (assign)  float                   latitude;
 
 @end
