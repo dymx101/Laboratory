@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA9A3D37180A4FEE003B8469 /* TMDSnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9A3D36180A4FEE003B8469 /* TMDSnCell.m */; };
+		EA9A3D39180A500E003B8469 /* TMDSnCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9A3D38180A500E003B8469 /* TMDSnCell.xib */; };
+		EA9A3D53180A5061003B8469 /* NSMutableArray+AddOn.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9A3D3C180A5061003B8469 /* NSMutableArray+AddOn.m */; };
+		EA9A3D54180A5061003B8469 /* NSMutableDictionary+AddOn.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9A3D3E180A5061003B8469 /* NSMutableDictionary+AddOn.m */; };
+		EA9A3D55180A5061003B8469 /* NSObject+BeeNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9A3D40180A5061003B8469 /* NSObject+BeeNotification.m */; };
+		EA9A3D56180A5061003B8469 /* NSString+GGAddOn.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9A3D42180A5061003B8469 /* NSString+GGAddOn.m */; };
+		EA9A3D58180A5061003B8469 /* UIButton+GGAddOn.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9A3D46180A5061003B8469 /* UIButton+GGAddOn.m */; };
+		EA9A3D5C180A5061003B8469 /* UIScrollView+OTS.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9A3D4E180A5061003B8469 /* UIScrollView+OTS.m */; };
+		EA9A3D5E180A5061003B8469 /* UIView+LoadFromNib.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9A3D52180A5061003B8469 /* UIView+LoadFromNib.m */; };
 		EA9FBD0D1808EF67004EE1E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9FBD0C1808EF67004EE1E0 /* UIKit.framework */; };
 		EA9FBD0F1808EF67004EE1E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9FBD0E1808EF67004EE1E0 /* Foundation.framework */; };
 		EA9FBD111808EF67004EE1E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9FBD101808EF67004EE1E0 /* CoreGraphics.framework */; };
@@ -28,6 +37,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA9A3D35180A4FEE003B8469 /* TMDSnCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDSnCell.h; sourceTree = "<group>"; };
+		EA9A3D36180A4FEE003B8469 /* TMDSnCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDSnCell.m; sourceTree = "<group>"; };
+		EA9A3D38180A500E003B8469 /* TMDSnCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TMDSnCell.xib; sourceTree = "<group>"; };
+		EA9A3D3B180A5061003B8469 /* NSMutableArray+AddOn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+AddOn.h"; sourceTree = "<group>"; };
+		EA9A3D3C180A5061003B8469 /* NSMutableArray+AddOn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+AddOn.m"; sourceTree = "<group>"; };
+		EA9A3D3D180A5061003B8469 /* NSMutableDictionary+AddOn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+AddOn.h"; sourceTree = "<group>"; };
+		EA9A3D3E180A5061003B8469 /* NSMutableDictionary+AddOn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+AddOn.m"; sourceTree = "<group>"; };
+		EA9A3D3F180A5061003B8469 /* NSObject+BeeNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeNotification.h"; sourceTree = "<group>"; };
+		EA9A3D40180A5061003B8469 /* NSObject+BeeNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeNotification.m"; sourceTree = "<group>"; };
+		EA9A3D41180A5061003B8469 /* NSString+GGAddOn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GGAddOn.h"; sourceTree = "<group>"; };
+		EA9A3D42180A5061003B8469 /* NSString+GGAddOn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GGAddOn.m"; sourceTree = "<group>"; };
+		EA9A3D45180A5061003B8469 /* UIButton+GGAddOn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+GGAddOn.h"; sourceTree = "<group>"; };
+		EA9A3D46180A5061003B8469 /* UIButton+GGAddOn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+GGAddOn.m"; sourceTree = "<group>"; };
+		EA9A3D4D180A5061003B8469 /* UIScrollView+OTS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+OTS.h"; sourceTree = "<group>"; };
+		EA9A3D4E180A5061003B8469 /* UIScrollView+OTS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+OTS.m"; sourceTree = "<group>"; };
+		EA9A3D51180A5061003B8469 /* UIView+LoadFromNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LoadFromNib.h"; sourceTree = "<group>"; };
+		EA9A3D52180A5061003B8469 /* UIView+LoadFromNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LoadFromNib.m"; sourceTree = "<group>"; };
 		EA9FBD091808EF67004EE1E0 /* WuhanSN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WuhanSN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA9FBD0C1808EF67004EE1E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EA9FBD0E1808EF67004EE1E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -73,9 +99,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA9A3D3A180A5061003B8469 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EA9A3D3B180A5061003B8469 /* NSMutableArray+AddOn.h */,
+				EA9A3D3C180A5061003B8469 /* NSMutableArray+AddOn.m */,
+				EA9A3D3D180A5061003B8469 /* NSMutableDictionary+AddOn.h */,
+				EA9A3D3E180A5061003B8469 /* NSMutableDictionary+AddOn.m */,
+				EA9A3D3F180A5061003B8469 /* NSObject+BeeNotification.h */,
+				EA9A3D40180A5061003B8469 /* NSObject+BeeNotification.m */,
+				EA9A3D41180A5061003B8469 /* NSString+GGAddOn.h */,
+				EA9A3D42180A5061003B8469 /* NSString+GGAddOn.m */,
+				EA9A3D45180A5061003B8469 /* UIButton+GGAddOn.h */,
+				EA9A3D46180A5061003B8469 /* UIButton+GGAddOn.m */,
+				EA9A3D4D180A5061003B8469 /* UIScrollView+OTS.h */,
+				EA9A3D4E180A5061003B8469 /* UIScrollView+OTS.m */,
+				EA9A3D51180A5061003B8469 /* UIView+LoadFromNib.h */,
+				EA9A3D52180A5061003B8469 /* UIView+LoadFromNib.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		EA9FBD001808EF67004EE1E0 = {
 			isa = PBXGroup;
 			children = (
+				EA9A3D3A180A5061003B8469 /* Categories */,
 				EA9FBDAD180941A2004EE1E0 /* AddressBook.framework */,
 				EA9FBDA818093EFE004EE1E0 /* MapKit.framework */,
 				EA9FBD121808EF67004EE1E0 /* WuhanSN */,
@@ -120,6 +168,9 @@
 				EA9FBDA318093ECE004EE1E0 /* TMDMapVC.h */,
 				EA9FBDA418093ECE004EE1E0 /* TMDMapVC.m */,
 				EA9FBDA518093ECE004EE1E0 /* TMDMapVC.xib */,
+				EA9A3D35180A4FEE003B8469 /* TMDSnCell.h */,
+				EA9A3D36180A4FEE003B8469 /* TMDSnCell.m */,
+				EA9A3D38180A500E003B8469 /* TMDSnCell.xib */,
 			);
 			path = WuhanSN;
 			sourceTree = "<group>";
@@ -196,6 +247,7 @@
 				EA9FBD231808EF67004EE1E0 /* Default-568h@2x.png in Resources */,
 				EA9FBD291808EF67004EE1E0 /* TMDViewController.xib in Resources */,
 				EA9FBDA718093ECE004EE1E0 /* TMDMapVC.xib in Resources */,
+				EA9A3D39180A500E003B8469 /* TMDSnCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +265,14 @@
 				EA9FBD341808F074004EE1E0 /* SnData.m in Sources */,
 				EA9FBDA618093ECE004EE1E0 /* TMDMapVC.m in Sources */,
 				EA9FBDAC180940DD004EE1E0 /* MyLocation.m in Sources */,
+				EA9A3D37180A4FEE003B8469 /* TMDSnCell.m in Sources */,
+				EA9A3D53180A5061003B8469 /* NSMutableArray+AddOn.m in Sources */,
+				EA9A3D54180A5061003B8469 /* NSMutableDictionary+AddOn.m in Sources */,
+				EA9A3D55180A5061003B8469 /* NSObject+BeeNotification.m in Sources */,
+				EA9A3D56180A5061003B8469 /* NSString+GGAddOn.m in Sources */,
+				EA9A3D58180A5061003B8469 /* UIButton+GGAddOn.m in Sources */,
+				EA9A3D5C180A5061003B8469 /* UIScrollView+OTS.m in Sources */,
+				EA9A3D5E180A5061003B8469 /* UIView+LoadFromNib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
