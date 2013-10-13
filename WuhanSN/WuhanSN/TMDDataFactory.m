@@ -21,8 +21,10 @@ static NSMutableArray *snDatas = nil;
     if (snDatas == nil)
     {
         snDatas = [NSMutableArray array];
+        int startID = 10000;
         
         SnData *data = [SnData new];
+        data.ID = startID++;
         data.name = @"水上明珠国际俱乐部";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"曾经理":@"13886195879"}];
@@ -33,6 +35,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"长江大酒店";
         data.district = SnDistrictHankou;
         data.contacts = @[@{@"少鹰":@"15271909791"}];
@@ -43,6 +46,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"汇申会所";
         data.district = SnDistrictHankou;
         data.contacts = @[@{@"王经理":@"15927093911"}, @{@"李经理":@"15971499391"}, @{@"钟经理":@"13871171531"}];
@@ -53,6 +57,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"循礼门会所";
         data.district = SnDistrictHankou;
         data.contacts = @[@{@"张经理":@"15972039022"}];
@@ -63,6 +68,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"军悦假日酒店";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"姚经理":@"13720387073"}];
@@ -73,6 +79,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"华云大酒店";
         data.district = SnDistrictHankou;
         data.contacts = @[@{@"李经理":@"15071395059"}, @{@"李丽":@"1307122988"}];
@@ -83,6 +90,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"玉泉商务宾馆";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"汪经理":@"13277067121"}];
@@ -93,6 +101,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"OK100娱乐城";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"宋经理":@"13517285082"}];
@@ -103,6 +112,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"圣宝龙大酒店";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"成经理":@"13638694476"}, @{@"李经理":@"15102720577"}];
@@ -113,6 +123,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"华天大酒店";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"柯经理":@"13517226099"}, @{@"张经理":@"13971009271"}, @{@"夏经理":@"13871274116"}];
@@ -122,6 +133,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"桂林山水洗浴會所";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"余经理":@"13517255523"}];
@@ -131,6 +143,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"御泉会所";
         data.district = SnDistrictHankou;
         data.contacts = @[@{@"王经理":@"13995555305"}];
@@ -140,6 +153,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"罗马会所";
         data.district = SnDistrictHankou;
         data.contacts = @[@{@"小蓝经理":@"15926254164"}, @{@"王经理":@"13476106675"}];
@@ -149,6 +163,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"时代会所";
         data.district = SnDistrictHankou;
         data.contacts = @[@{@"经理":@"15171420008"}];
@@ -158,6 +173,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"弘毅大酒店";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"文经理":@"13554059185"}];
@@ -167,6 +183,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"云鼎商务酒店";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"唐经理":@"13517265386"}, @{@"李经理":@"18908655655"}
@@ -178,6 +195,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"雄楚国际大酒店";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"黎经理":@"15623007215"}, @{@"李经理":@"15927113881"}];
@@ -187,6 +205,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"海上明月";
         data.district = SnDistrictHankou;
         data.contacts = @[@{@"李经理":@"18707191779"}, @{@"李经理":@"13100624348"}, @{@"李经理":@"15387039956"}];
@@ -196,6 +215,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"皇城水都";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"彭经理":@"13707128985"}];
@@ -205,6 +225,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"天成宾馆";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"经理":@"13707187587"}];
@@ -214,6 +235,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"日豪水都";
         data.district = SnDistrictHankou;
         data.contacts = @[@{@"鲍经理":@"13554467989"}];
@@ -223,6 +245,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"卓悦假日酒店";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"鲍经理":@"15927685665"}];
@@ -232,6 +255,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"荣安风情会所";
         data.district = SnDistrictHankou;
         //  
@@ -242,6 +266,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"芒果水晶";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"姚经理":@"13871122761"}];
@@ -251,6 +276,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"纽宾凯新时代国际酒店";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"王总":@"13545008712"}];
@@ -260,6 +286,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"利济路会所";
         data.district = SnDistrictHankou;
         data.contacts = @[@{@"头总":@"15207117311"}];
@@ -269,6 +296,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"马房山7天酒店";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"经理":@"13554430290"}];
@@ -278,6 +306,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"君宜王朝大酒店";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"李经理":@"13971395450"}, @{@"经理":@"18691798593"}];
@@ -287,6 +316,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"御龙会所";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"汪经理":@"13720236527"}];
@@ -296,6 +326,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"电力宾馆";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"戴经理":@"13659810378"}];
@@ -306,6 +337,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"隆程大酒店";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"崔经理":@"18627187397"}];
@@ -315,6 +347,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"尼斯酒店";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"刘经理":@"15207141996"}];
@@ -324,6 +357,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"水之瑶水疗会所";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"向经理":@"15172361771"}];
@@ -333,6 +367,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"纽宾凯国际酒店";
         data.district = SnDistrictHankou;
         data.contacts = @[@{@"邓经理":@"15071151680"}];
@@ -342,6 +377,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"在水一方";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"彭总":@"15623768216"}];
@@ -351,6 +387,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"水岸国际";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"韩经理":@"13657251566"}];
@@ -360,6 +397,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"路虎私人会所";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"经理":@"15171496299"}];
@@ -369,6 +407,7 @@ static NSMutableArray *snDatas = nil;
         [snDatas addObject:data];
         
         data = [SnData new];
+        data.ID = startID++;
         data.name = @"楚民大酒店";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"小妍":@"13277971591"}];
