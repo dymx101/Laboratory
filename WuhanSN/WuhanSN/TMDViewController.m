@@ -27,10 +27,12 @@
 {
     [super viewDidLoad];
     self.navigationItem.title = @"SN列表";
+    _tv.backgroundColor = [UIColor colorWithWhite:.3 alpha:1];
 	
     _datas = [TMDDataFactory snDatas];
     _tv.rowHeight = [TMDSnCell HEIGHT];
-    _tv.separatorColor = [UIColor colorWithWhite:.4 alpha:1];
+    _tv.separatorColor = [UIColor colorWithWhite:.4 alpha:.5];
+    
 }
 
 -(int)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -47,10 +49,14 @@
     {
         cell = [TMDSnCell viewFromNibWithOwner:self];//[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellId];
         [cell.btnMap addTarget:self action:@selector(goMap:) forControlEvents:UIControlEventTouchUpInside];
+        
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
     }
     
     SnData *data = _datas[row];
     cell.lblName.text = data.name;
+    cell.lblDescription.text = data.description;
+    cell.ivPic.image = [UIImage imageNamed:@"default.jpg"];
     cell.tag = cell.btnMap.tag = cell.btnOrder.tag = row;
     
     cell.viewBg.backgroundColor = (row % 2) ? [UIColor colorWithWhite:.15 alpha:1] : [UIColor colorWithWhite:.1 alpha:1];

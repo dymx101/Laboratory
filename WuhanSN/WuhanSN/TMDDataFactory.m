@@ -32,6 +32,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.315523f;
         data.latitude = 30.553392f;
         data.address = @"中山路312号凤凰大厦B座";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -43,6 +44,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.266202;
         data.latitude = 30.580653;
         data.address = @"汉口解放大道1131号（航空路立交桥旁）";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -54,6 +56,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.310985;
         data.latitude = 30.602255;
         data.address = @"江岸区沿江大道234号";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -65,6 +68,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.284307;
         data.latitude = 30.586091;
         data.address = @"江汉区解放大道1413号";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -76,6 +80,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.370320;
         data.latitude = 30.529281;
         data.address = @"洪山区八一路415号";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -87,6 +92,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.315217;
         data.latitude = 30.619337;
         data.address = @"江岸区解放大道1480号";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -98,6 +104,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.335940;
         data.latitude = 30.542207;
         data.address = @"武昌区中南路80号";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -109,6 +116,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.317545;
         data.latitude = 30.534376;
         data.address = @"武昌区中山路519号";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -120,6 +128,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.356019;
         data.latitude = 30.510563;
         data.address = @"洪山区雄楚大道297号";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -130,6 +139,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.346913;
         data.latitude = 30.589236;
         data.address = @"武昌区徐东大街7号";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -140,6 +150,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.318905;
         data.latitude = 30.545219;
         data.address = @"武昌区中山路309号广西大厦3层";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -150,6 +161,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.268437;
         data.latitude = 30.601553;
         data.address = @"江汉区北湖横路";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -160,6 +172,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.289428;
         data.latitude = 30.588469;
         data.address = @"江岸区黄石路";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -170,6 +183,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.253438;
         data.latitude = 30.578351;
         data.address = @"硚口区解放大道558号";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -180,6 +194,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.355708;
         data.latitude = 30.551382;
         data.address = @"武昌区东湖路136号";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -192,6 +207,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.359576;
         data.latitude = 30.573901;
         data.address = @"武昌区中北路岳家嘴154号";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -202,6 +218,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.361271;
         data.latitude = 30.510103;
         data.address = @"洪山区雄楚大道335号";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -212,6 +229,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.290605;
         data.latitude = 30.586065;
         data.address = @"江岸区铭新街";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -222,6 +240,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.319278;
         data.latitude = 30.541043;
         data.address = @"武昌区中山路大东门特1号";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -232,6 +251,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.330262;
         data.latitude = 30.544134;
         data.address = @"武昌区民主路722号";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -242,6 +262,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.252504;
         data.latitude = 30.581369;
         data.address = @"硚口区宝丰一路97号";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -252,6 +273,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.368384;
         data.latitude = 30.515758;
         data.address = @"洪山区卓刀泉南路45号";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -263,6 +285,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.262040;
         data.latitude = 30.592872;
         data.address = @"江汉区建设大道青年路";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -273,6 +296,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.350477;
         data.latitude = 30.518466;
         data.address = @"洪山区珞狮路158号附2";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -283,6 +307,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.330784;
         data.latitude = 30.532779;
         data.address = @"武昌区武珞路456号";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -293,6 +318,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.272735;
         data.latitude = 30.568935;
         data.address = @"硚口区利济路";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -303,6 +329,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.350439;
         data.latitude = 30.518313;
         data.address = @"洪山区珞狮路珞狮南路168号洪发大厦";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -313,6 +340,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.359685;
         data.latitude = 30.525150;
         data.address = @"洪山区珞喻路珞瑜路87号";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -323,6 +351,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.334711;
         data.latitude = 30.545825;
         data.address = @"洪山体育馆大院内";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -334,6 +363,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.365346;
         data.latitude = 30.576459;
         data.address = @"武昌区徐东大街";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -344,6 +374,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.310807;
         data.latitude = 30.564266;
         data.address = @"武昌区和平大道336号";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -354,6 +385,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.326530;
         data.latitude = 30.573159;
         data.address = @"友谊大道318号";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -364,6 +396,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.265266;
         data.latitude = 30.574850;
         data.address = @"硚口区集贤二路";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -374,6 +407,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.272669;
         data.latitude = 30.592715;
         data.address = @"江汉区新华路151号";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -384,6 +418,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.324285;
         data.latitude = 30.543780;
         data.address = @"武昌区民主路610号";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -394,6 +429,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.324132;
         data.latitude = 30.571794;
         data.address = @"武昌区友谊大道隧道口";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -404,6 +440,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.324132;
         data.latitude = 30.571794;
         data.address = @"不祥";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
         
         data = [SnData new];
@@ -414,6 +451,7 @@ static NSMutableArray *snDatas = nil;
         data.longitude = 114.309669;
         data.latitude = 30.535554;
         data.address = @"武昌区首义路115号";
+        data.description = @"消费：300 500 700";
         [snDatas addObject:data];
     }
     

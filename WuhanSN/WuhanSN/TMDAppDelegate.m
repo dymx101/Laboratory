@@ -21,7 +21,7 @@
     self.window.rootViewController = nc;
     [self.window makeKeyAndVisible];
     
-    [[UINavigationBar appearance] setTintColor:[UIColor magentaColor]];
+    [[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:138.f / 255 green:7.f / 255 blue:204.f / 255 alpha:1]];
     
     return YES;
 }

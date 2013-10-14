@@ -1,0 +1,10 @@
+platform :ios, '6.0'
+
+pod 'SSToolkit'
+pod 'ConciseKit'
+pod 'Nimbus/AttributedLabel'
+pod 'EGOTableViewPullRefresh'
+pod 'KoaPullToRefresh'
+pod 'HKRefreshControl'
+pod 'SHOmniAuthTwitter'
+pod 'SDWebImage'

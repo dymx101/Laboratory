@@ -28,7 +28,7 @@
 
 +(float)HEIGHT
 {
-    return 120.f;
+    return 70.f;
 }
 
 @end
