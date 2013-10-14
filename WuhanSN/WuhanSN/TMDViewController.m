@@ -21,6 +21,7 @@
 @implementation TMDViewController
 {
     NSArray         *_datas;
+    SnData          *_currentData;
 }
 
 - (void)viewDidLoad
@@ -49,7 +50,7 @@
     {
         cell = [TMDSnCell viewFromNibWithOwner:self];//[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellId];
         [cell.btnMap addTarget:self action:@selector(goMap:) forControlEvents:UIControlEventTouchUpInside];
-        
+        [cell.btnOrder addTarget:self action:@selector(showPhoneSheet:) forControlEvents:UIControlEventTouchUpInside];
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
     }
     
@@ -76,9 +77,44 @@
     [self.navigationController pushViewController:mapVC animated:YES];
 }
 
+-(void)showPhoneSheet:(UIButton *)sender
+{
+    int row = sender.tag;
+    _currentData = _datas[row];
+    
+    NSString *title = [NSString stringWithFormat:@"%@", _currentData.name];
+    
+    UIActionSheet *shit = [[UIActionSheet alloc] initWithTitle:title delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil];
+    NSArray *contacts = _currentData.contacts;
+    
+    int keyCount = 0;
+    for (NSDictionary *dic in contacts)
+    {
+        NSString *key = dic.allKeys[0];
+        [shit addButtonWithTitle:key];
+        keyCount++;
+    }
+    
+    [shit addButtonWithTitle:@"取消"];
+    shit.cancelButtonIndex = keyCount;
+    
+    [shit showInView:self.view];
+}
+
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    if (buttonIndex != actionSheet.cancelButtonIndex)
+    {
+        NSArray *contacts = _currentData.contacts;
+        NSDictionary *dic = contacts[buttonIndex];
+        NSString *number = dic.allValues[0];
+        NSLog(@"phone number:%@", number);
+    }
+}
+
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    int row = indexPath.row;
+    //int row = indexPath.row;
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
 //    SnData *data = _datas[row];

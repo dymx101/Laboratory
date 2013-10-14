@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TMDViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@interface TMDViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, UIActionSheetDelegate>
 
 @end
