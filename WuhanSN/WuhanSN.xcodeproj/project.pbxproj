@@ -11,6 +11,8 @@
 		EA2235D4180BD26F00629A6B /* mapIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA2235D3180BD26F00629A6B /* mapIcon@2x.png */; };
 		EA2235D6180BD60100629A6B /* default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA2235D5180BD60100629A6B /* default.jpg */; };
 		EA2235D8180BD9D800629A6B /* telephone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA2235D7180BD9D800629A6B /* telephone@2x.png */; };
+		EA2235DA180BDE6000629A6B /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA2235D9180BDE6000629A6B /* location@2x.png */; };
+		EA2235DC180BDF9500629A6B /* locationPink@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA2235DB180BDF9500629A6B /* locationPink@2x.png */; };
 		EA9A3D37180A4FEE003B8469 /* TMDSnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9A3D36180A4FEE003B8469 /* TMDSnCell.m */; };
 		EA9A3D39180A500E003B8469 /* TMDSnCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9A3D38180A500E003B8469 /* TMDSnCell.xib */; };
 		EA9A3D53180A5061003B8469 /* NSMutableArray+AddOn.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9A3D3C180A5061003B8469 /* NSMutableArray+AddOn.m */; };
@@ -46,6 +48,8 @@
 		EA2235D3180BD26F00629A6B /* mapIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mapIcon@2x.png"; sourceTree = "<group>"; };
 		EA2235D5180BD60100629A6B /* default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default.jpg; sourceTree = "<group>"; };
 		EA2235D7180BD9D800629A6B /* telephone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "telephone@2x.png"; sourceTree = "<group>"; };
+		EA2235D9180BDE6000629A6B /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@2x.png"; sourceTree = "<group>"; };
+		EA2235DB180BDF9500629A6B /* locationPink@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "locationPink@2x.png"; sourceTree = "<group>"; };
 		EA9A3D35180A4FEE003B8469 /* TMDSnCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDSnCell.h; sourceTree = "<group>"; };
 		EA9A3D36180A4FEE003B8469 /* TMDSnCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDSnCell.m; sourceTree = "<group>"; };
 		EA9A3D38180A500E003B8469 /* TMDSnCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TMDSnCell.xib; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 		EA2235D2180BD26700629A6B /* images */ = {
 			isa = PBXGroup;
 			children = (
+				EA2235DB180BDF9500629A6B /* locationPink@2x.png */,
+				EA2235D9180BDE6000629A6B /* location@2x.png */,
 				EA2235D7180BD9D800629A6B /* telephone@2x.png */,
 				EA2235D5180BD60100629A6B /* default.jpg */,
 				EA2235D3180BD26F00629A6B /* mapIcon@2x.png */,
@@ -276,6 +282,8 @@
 				EA2235D4180BD26F00629A6B /* mapIcon@2x.png in Resources */,
 				EA2235D6180BD60100629A6B /* default.jpg in Resources */,
 				EA2235D8180BD9D800629A6B /* telephone@2x.png in Resources */,
+				EA2235DA180BDE6000629A6B /* location@2x.png in Resources */,
+				EA2235DC180BDF9500629A6B /* locationPink@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
