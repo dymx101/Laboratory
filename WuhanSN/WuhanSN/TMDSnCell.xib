@@ -98,7 +98,7 @@
 									<object class="IBUILabel" id="754162737">
 										<reference key="NSNextResponder" ref="916635883"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{12, 29}, {209, 26}}</string>
+										<string key="NSFrame">{{12, 34}, {209, 26}}</string>
 										<reference key="NSSuperview" ref="916635883"/>
 										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="991959570"/>
@@ -119,11 +119,11 @@
 											<string key="name">HelveticaNeue-Light</string>
 											<string key="family">Helvetica Neue</string>
 											<int key="traits">0</int>
-											<double key="pointSize">13</double>
+											<double key="pointSize">15</double>
 										</object>
 										<object class="NSFont" key="IBUIFont">
 											<string key="NSName">HelveticaNeue-Medium</string>
-											<double key="NSSize">13</double>
+											<double key="NSSize">15</double>
 											<int key="NSfFlags">16</int>
 										</object>
 										<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
@@ -131,7 +131,7 @@
 									<object class="IBUIButton" id="170306931">
 										<reference key="NSNextResponder" ref="916635883"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{276, 14}, {36, 36}}</string>
+										<string key="NSFrame">{{276, 17}, {36, 36}}</string>
 										<reference key="NSSuperview" ref="916635883"/>
 										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView"/>
@@ -169,7 +169,7 @@
 									<object class="IBUIButton" id="883822400">
 										<reference key="NSNextResponder" ref="916635883"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{221, 14}, {36, 36}}</string>
+										<string key="NSFrame">{{221, 17}, {36, 36}}</string>
 										<reference key="NSSuperview" ref="916635883"/>
 										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="170306931"/>

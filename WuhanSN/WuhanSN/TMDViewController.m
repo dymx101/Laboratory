@@ -109,6 +109,9 @@
         NSDictionary *dic = contacts[buttonIndex];
         NSString *number = dic.allValues[0];
         NSLog(@"phone number:%@", number);
+        
+        NSURL *phoneURL = [NSURL URLWithString:[NSString stringWithFormat:@"tel:%@", number]];
+        [[UIApplication sharedApplication] openURL:phoneURL];
     }
 }
 
