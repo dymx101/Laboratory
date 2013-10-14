@@ -9,5 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface TMDSnCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *lblName;
+@property (weak, nonatomic) IBOutlet UILabel *lblDescription;
+@property (weak, nonatomic) IBOutlet UIButton *btnMap;
+@property (weak, nonatomic) IBOutlet UIButton *btnOrder;
+@property (weak, nonatomic) IBOutlet UIImageView *ivPic;
+
+@property (weak, nonatomic) IBOutlet UIView *viewBg;
+
++(float)HEIGHT;
 
 @end

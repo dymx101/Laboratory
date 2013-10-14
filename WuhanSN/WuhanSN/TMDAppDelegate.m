@@ -20,6 +20,9 @@
     UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:_viewController];
     self.window.rootViewController = nc;
     [self.window makeKeyAndVisible];
+    
+    [[UINavigationBar appearance] setTintColor:[UIColor magentaColor]];
+    
     return YES;
 }
 

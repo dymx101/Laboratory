@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA2235D4180BD26F00629A6B /* mapIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA2235D3180BD26F00629A6B /* mapIcon.png */; };
 		EA9A3D37180A4FEE003B8469 /* TMDSnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9A3D36180A4FEE003B8469 /* TMDSnCell.m */; };
 		EA9A3D39180A500E003B8469 /* TMDSnCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9A3D38180A500E003B8469 /* TMDSnCell.xib */; };
 		EA9A3D53180A5061003B8469 /* NSMutableArray+AddOn.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9A3D3C180A5061003B8469 /* NSMutableArray+AddOn.m */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA2235D3180BD26F00629A6B /* mapIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapIcon.png; sourceTree = "<group>"; };
 		EA9A3D35180A4FEE003B8469 /* TMDSnCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDSnCell.h; sourceTree = "<group>"; };
 		EA9A3D36180A4FEE003B8469 /* TMDSnCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDSnCell.m; sourceTree = "<group>"; };
 		EA9A3D38180A500E003B8469 /* TMDSnCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TMDSnCell.xib; sourceTree = "<group>"; };
@@ -99,6 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA2235D2180BD26700629A6B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EA2235D3180BD26F00629A6B /* mapIcon.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		EA9A3D3A180A5061003B8469 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +133,7 @@
 		EA9FBD001808EF67004EE1E0 = {
 			isa = PBXGroup;
 			children = (
+				EA2235D2180BD26700629A6B /* images */,
 				EA9A3D3A180A5061003B8469 /* Categories */,
 				EA9FBDAD180941A2004EE1E0 /* AddressBook.framework */,
 				EA9FBDA818093EFE004EE1E0 /* MapKit.framework */,
@@ -248,6 +259,7 @@
 				EA9FBD291808EF67004EE1E0 /* TMDViewController.xib in Resources */,
 				EA9FBDA718093ECE004EE1E0 /* TMDMapVC.xib in Resources */,
 				EA9A3D39180A500E003B8469 /* TMDSnCell.xib in Resources */,
+				EA2235D4180BD26F00629A6B /* mapIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

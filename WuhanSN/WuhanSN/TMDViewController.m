@@ -10,8 +10,11 @@
 #import "TMDDataFactory.h"
 #import "SnData.h"
 #import "TMDMapVC.h"
+#import "TMDSnCell.h"
+#import "UIView+LoadFromNib.h"
 
 @interface TMDViewController ()
+@property (weak, nonatomic) IBOutlet UITableView *tv;
 
 @end
 
@@ -26,6 +29,8 @@
     self.navigationItem.title = @"SN列表";
 	
     _datas = [TMDDataFactory snDatas];
+    _tv.rowHeight = [TMDSnCell HEIGHT];
+    _tv.separatorColor = [UIColor colorWithWhite:.4 alpha:1];
 }
 
 -(int)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -36,23 +41,26 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     int row = indexPath.row;
-    static NSString *cellId = @"cellId";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellId];
+    static NSString *cellId = @"TMDSnCell";
+    TMDSnCell *cell = [tableView dequeueReusableCellWithIdentifier:cellId];
     if (cell == nil)
     {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellId];
+        cell = [TMDSnCell viewFromNibWithOwner:self];//[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellId];
+        [cell.btnMap addTarget:self action:@selector(goMap:) forControlEvents:UIControlEventTouchUpInside];
     }
     
     SnData *data = _datas[row];
-    cell.textLabel.text = data.name;
+    cell.lblName.text = data.name;
+    cell.tag = cell.btnMap.tag = cell.btnOrder.tag = row;
+    
+    cell.viewBg.backgroundColor = (row % 2) ? [UIColor colorWithWhite:.15 alpha:1] : [UIColor colorWithWhite:.1 alpha:1];
     
     return cell;
 }
 
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+-(void)goMap:(UIButton *)sender
 {
-    int row = indexPath.row;
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    int row = sender.tag;
     
     SnData *data = _datas[row];
     
@@ -60,6 +68,19 @@
     mapVC.data = data;
     
     [self.navigationController pushViewController:mapVC animated:YES];
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    int row = indexPath.row;
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+//    SnData *data = _datas[row];
+//    
+//    TMDMapVC *mapVC = [TMDMapVC new];
+//    mapVC.data = data;
+//    
+//    [self.navigationController pushViewController:mapVC animated:YES];
 }
 
 - (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>)annotation {
