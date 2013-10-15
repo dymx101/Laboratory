@@ -40,6 +40,14 @@
 		EA9FBDA918093EFE004EE1E0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9FBDA818093EFE004EE1E0 /* MapKit.framework */; };
 		EA9FBDAC180940DD004EE1E0 /* MyLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9FBDAB180940DD004EE1E0 /* MyLocation.m */; };
 		EA9FBDAE180941A2004EE1E0 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9FBDAD180941A2004EE1E0 /* AddressBook.framework */; };
+		EAA021BF180D339D0086F184 /* appIcon512.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA021BE180D339D0086F184 /* appIcon512.png */; };
+		EAA021D5180D36810086F184 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA021CE180D36810086F184 /* Icon-72.png */; };
+		EAA021D6180D36810086F184 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA021CF180D36810086F184 /* Icon-72@2x.png */; };
+		EAA021D7180D36810086F184 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA021D0180D36810086F184 /* Icon-76.png */; };
+		EAA021D8180D36810086F184 /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA021D1180D36810086F184 /* Icon-120.png */; };
+		EAA021D9180D36810086F184 /* Icon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA021D2180D36810086F184 /* Icon-152.png */; };
+		EAA021DD180D36A20086F184 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA021DC180D36A20086F184 /* Icon.png */; };
+		EAA021DF180D36AB0086F184 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA021DE180D36AB0086F184 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +102,14 @@
 		EA9FBDAA180940DD004EE1E0 /* MyLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLocation.h; sourceTree = "<group>"; };
 		EA9FBDAB180940DD004EE1E0 /* MyLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLocation.m; sourceTree = "<group>"; };
 		EA9FBDAD180941A2004EE1E0 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		EAA021BE180D339D0086F184 /* appIcon512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon512.png; sourceTree = "<group>"; };
+		EAA021CE180D36810086F184 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		EAA021CF180D36810086F184 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		EAA021D0180D36810086F184 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		EAA021D1180D36810086F184 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
+		EAA021D2180D36810086F184 /* Icon-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-152.png"; sourceTree = "<group>"; };
+		EAA021DC180D36A20086F184 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		EAA021DE180D36AB0086F184 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +132,7 @@
 		EA2235D2180BD26700629A6B /* images */ = {
 			isa = PBXGroup;
 			children = (
+				EAA021BE180D339D0086F184 /* appIcon512.png */,
 				EA2235DB180BDF9500629A6B /* locationPink@2x.png */,
 				EA2235D9180BDE6000629A6B /* location@2x.png */,
 				EA2235D7180BD9D800629A6B /* telephone@2x.png */,
@@ -149,6 +166,8 @@
 		EA9FBD001808EF67004EE1E0 = {
 			isa = PBXGroup;
 			children = (
+				EAA021DE180D36AB0086F184 /* Icon@2x.png */,
+				EAA021DC180D36A20086F184 /* Icon.png */,
 				EA2235D2180BD26700629A6B /* images */,
 				EA9A3D3A180A5061003B8469 /* Categories */,
 				EA9FBDAD180941A2004EE1E0 /* AddressBook.framework */,
@@ -207,6 +226,11 @@
 		EA9FBD131808EF67004EE1E0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EAA021CE180D36810086F184 /* Icon-72.png */,
+				EAA021CF180D36810086F184 /* Icon-72@2x.png */,
+				EAA021D0180D36810086F184 /* Icon-76.png */,
+				EAA021D1180D36810086F184 /* Icon-120.png */,
+				EAA021D2180D36810086F184 /* Icon-152.png */,
 				EA9FBD141808EF67004EE1E0 /* WuhanSN-Info.plist */,
 				EA9FBD151808EF67004EE1E0 /* InfoPlist.strings */,
 				EA9FBD181808EF67004EE1E0 /* main.m */,
@@ -284,6 +308,14 @@
 				EA2235D8180BD9D800629A6B /* telephone@2x.png in Resources */,
 				EA2235DA180BDE6000629A6B /* location@2x.png in Resources */,
 				EA2235DC180BDF9500629A6B /* locationPink@2x.png in Resources */,
+				EAA021BF180D339D0086F184 /* appIcon512.png in Resources */,
+				EAA021D5180D36810086F184 /* Icon-72.png in Resources */,
+				EAA021D6180D36810086F184 /* Icon-72@2x.png in Resources */,
+				EAA021D7180D36810086F184 /* Icon-76.png in Resources */,
+				EAA021D8180D36810086F184 /* Icon-120.png in Resources */,
+				EAA021D9180D36810086F184 /* Icon-152.png in Resources */,
+				EAA021DD180D36A20086F184 /* Icon.png in Resources */,
+				EAA021DF180D36AB0086F184 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

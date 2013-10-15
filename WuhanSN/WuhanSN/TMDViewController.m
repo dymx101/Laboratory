@@ -91,7 +91,8 @@
     for (NSDictionary *dic in contacts)
     {
         NSString *key = dic.allKeys[0];
-        [shit addButtonWithTitle:key];
+        NSString *value = dic.allValues[0];
+        [shit addButtonWithTitle:[NSString stringWithFormat:@"%@(%@)", key, value]];
         keyCount++;
     }
     
