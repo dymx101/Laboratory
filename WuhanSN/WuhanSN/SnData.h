@@ -25,7 +25,9 @@ typedef enum
 @property (copy)    NSString                *address;
 
 @property (copy)    NSArray                 *contacts;
-@property (copy)    NSString                *description;
+@property (copy)    NSString                *cost;
+@property (copy)    NSString                *promotion;
+@property (copy)    NSString                *time;
 
 @property (assign)  float                   longitude;
 @property (assign)  float                   latitude;

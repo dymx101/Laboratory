@@ -56,7 +56,7 @@
     
     SnData *data = _datas[row];
     cell.lblName.text = data.name;
-    cell.lblDescription.text = data.description;
+    cell.lblDescription.text = data.cost;
     cell.ivPic.image = [UIImage imageNamed:@"default.jpg"];
     cell.tag = cell.btnMap.tag = cell.btnOrder.tag = row;
     
