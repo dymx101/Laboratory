@@ -462,7 +462,7 @@ static NSMutableArray *snDatas = nil;
         data.ID = startID++;
         data.name = @"嘉鸿白金酒店";
         data.district = SnDistrictHankou;
-        data.contacts = @[@{@"杨经理":@"13995588757"}];
+        data.contacts = @[@{@"杨雪":@"13995588757"}];
         data.longitude = 114.239619;
         data.latitude = 30.625710;
         data.address = @"江汉区常青路168号";
@@ -563,7 +563,20 @@ static NSMutableArray *snDatas = nil;
         data.latitude = DEFAULT_LATITUDE;
         data.address = @"不祥";
         data.description = @"消费：300 500 700";
-        [snDatas addObject:data];       
+        [snDatas addObject:data];
+        
+        
+        data = [SnData new];
+        data.ID = startID++;
+        data.name = @"建国大酒店";
+        data.district = SnDistrictHanyang;
+        data.contacts = @[@{@"王样":@"13720375468"}];
+        data.longitude = DEFAULT_LONGITUDE;
+        data.latitude = DEFAULT_LATITUDE;
+        data.address = @"不祥";
+        data.description = @"消费：300 500 700";
+        [snDatas addObject:data];
+        
     }
     
     return snDatas;
