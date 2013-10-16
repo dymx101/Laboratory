@@ -477,7 +477,7 @@ static NSMutableArray *snDatas = nil;
         data.contacts = @[@{@"三少":@"15391511117"}, @{@"钟经理":@"15391511117"}];
         data.longitude = 114.357591;
         data.latitude = 30.612597;
-        data.address = @"武昌区和平大道和平大道余家头杨家路口";
+        data.address = @"武昌和平大道四美塘艳阳天旁";
         data.cost = @"消费：500~700";
         data.time = @"13:00~3:00";
         [snDatas addObject:data];
@@ -579,6 +579,105 @@ static NSMutableArray *snDatas = nil;
         data.promotion = @"周日特价，晚上12点进店， 可在酒店客房免费过夜、 提供正规发票";
         [snDatas addObject:data];
         
+        
+        data = [SnData new];
+        data.ID = startID++;
+        data.name = @"玫瑰会所";
+        data.district = SnDistrictWuchang;
+        data.contacts = @[@{@"小熊":@"13296618419"}];
+        data.longitude = 114.352692;
+        data.latitude = 30.525485;
+        data.address = @"武昌区街道口爱尚酒吧旁";
+        data.cost = @"消费：380~780";
+        [snDatas addObject:data];
+        
+        
+        data = [SnData new];
+        data.ID = startID++;
+        data.name = @"祥龙会所";
+        data.district = SnDistrictWuchang;
+        data.contacts = @[@{@"祥子":@"15527754321"}];
+        data.longitude = 114.318478;
+        data.latitude = 30.548578;
+        data.address = @"武昌区中山路中铁十一局";
+        data.cost = @"消费：350~650";
+        [snDatas addObject:data];
+        
+        
+        data = [SnData new];
+        data.ID = startID++;
+        data.name = @"圣宫会所";
+        data.district = SnDistrictHankou;
+        data.contacts = @[@{@"吴总":@"13476009188"}];
+        data.longitude = 114.298477;
+        data.latitude = 30.589501;
+        data.address = @"江岸区黄兴路";
+        data.cost = @"消费：210~450";
+        data.time = @"中午12点~凌晨6点";
+        [snDatas addObject:data];
+        
+        
+        data = [SnData new];
+        data.ID = startID++;
+        data.name = @"凯德会所";
+        data.district = SnDistrictHankou;
+        data.contacts = @[@{@"吴总":@"13476009188"}];
+        data.longitude = 114.267661;
+        data.latitude = 30.568972;
+        data.address = @"武胜路与中山大道的交叉口";
+        data.cost = @"消费：500~800";
+        data.time = @"下午1点~凌晨5点";
+        [snDatas addObject:data];
+        
+        
+        data = [SnData new];
+        data.ID = startID++;
+        data.name = @"碧水蓝天";
+        data.district = SnDistrictHankou;
+        data.contacts = @[@{@"小刘":@"15927265021"}];
+        data.longitude = 114.267661;
+        data.latitude = 30.568972;
+        data.address = @"汉口武胜路家乐福附近";
+        data.cost = @"消费：580~880";
+        [snDatas addObject:data];
+        
+        
+        data = [SnData new];
+        data.ID = startID++;
+        data.name = @"武昌私人会所";
+        data.district = SnDistrictWuchang;
+        data.contacts = @[@{@"凌涛":@"15071405420"}];
+        data.longitude = 114.321788;
+        data.latitude = 30.548966;
+        data.address = @"武昌区小东门紫沙路";
+        data.cost = @"消费：450~800";
+        [snDatas addObject:data];
+        
+        
+        data = [SnData new];
+        data.ID = startID++;
+        data.name = @"吟枫会所";
+        data.district = SnDistrictHankou;
+        data.contacts = @[@{@"枫经理":@"18502751608"}];
+        data.longitude = 114.299166;
+        data.latitude = 30.579233;
+        data.address = @"南京路沿江大道口";
+        data.cost = @"消费：300~450";
+        [snDatas addObject:data];
+        
+        
+        data = [SnData new];
+        data.ID = startID++;
+        data.name = @"汉西会所";
+        data.district = SnDistrictHankou;
+        data.contacts = @[@{@"朱总":@"13697338667"}];
+        data.longitude = 114.234219;
+        data.latitude = 30.583059;
+        data.address = @"汉西双墩车管所旁边海盛酒店";
+        data.cost = @"消费：500~600";
+        [snDatas addObject:data];
+        
+
     }
     
     return snDatas;
