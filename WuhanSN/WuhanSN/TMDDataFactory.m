@@ -12,6 +12,9 @@
 
 //拾取坐标: http://api.map.baidu.com/lbsapi/getpoint/
 
+#define DEFAULT_LONGITUDE   (114.300488)
+#define DEFAULT_LATITUDE   (30.568062)
+
 @implementation TMDDataFactory
 
 static NSMutableArray *snDatas = nil;
@@ -437,8 +440,8 @@ static NSMutableArray *snDatas = nil;
         data.name = @"路虎私人会所";
         data.district = SnDistrictWuchang;
         data.contacts = @[@{@"经理":@"15171496299"}];
-        data.longitude = 114.324132;
-        data.latitude = 30.571794;
+        data.longitude = DEFAULT_LONGITUDE;
+        data.latitude = DEFAULT_LATITUDE;
         data.address = @"不祥";
         data.description = @"消费：300 500 700";
         [snDatas addObject:data];
@@ -453,6 +456,114 @@ static NSMutableArray *snDatas = nil;
         data.address = @"武昌区首义路115号";
         data.description = @"消费：300 500 700";
         [snDatas addObject:data];
+        
+        
+        data = [SnData new];
+        data.ID = startID++;
+        data.name = @"嘉鸿白金酒店";
+        data.district = SnDistrictHankou;
+        data.contacts = @[@{@"杨经理":@"13995588757"}];
+        data.longitude = 114.239619;
+        data.latitude = 30.625710;
+        data.address = @"江汉区常青路168号";
+        data.description = @"消费：300 500 700";
+        [snDatas addObject:data];
+        
+        
+        data = [SnData new];
+        data.ID = startID++;
+        data.name = @"皇庭会所";
+        data.district = SnDistrictWuchang;
+        data.contacts = @[@{@"三少":@"15391511117"}, @{@"钟经理":@"15391511117"}];
+        data.longitude = 114.357591;
+        data.latitude = 30.612597;
+        data.address = @"武昌区和平大道和平大道余家头杨家路口";
+        data.description = @"消费：300 500 700";
+        [snDatas addObject:data];
+        
+        
+        data = [SnData new];
+        data.ID = startID++;
+        data.name = @"不夜城";
+        data.district = SnDistrictWuchang;
+        data.contacts = @[@{@"奎少":@"18064078868"}];
+        data.longitude = 114.342814;
+        data.latitude = 30.585705;
+        data.address = @"武昌区汪家墩";
+        data.description = @"消费：300 500 700";
+        [snDatas addObject:data];
+        
+        
+        data = [SnData new];
+        data.ID = startID++;
+        data.name = @"楚天情";
+        data.district = SnDistrictWuchang;
+        data.contacts = @[@{@"文强":@"18108626280"}];
+        data.longitude = 114.321447;
+        data.latitude = 30.550715;
+        data.address = @"武昌区紫沙路";
+        data.description = @"消费：300 500 700";
+        [snDatas addObject:data];
+        
+        
+        data = [SnData new];
+        data.ID = startID++;
+        data.name = @"格瑞斯安";
+        data.district = SnDistrictHanyang;
+        data.contacts = @[@{@"红经理":@"15927472000"}];
+        data.longitude = 114.321447;
+        data.latitude = 30.550715;
+        data.address = @"汉阳区";
+        data.description = @"消费：300 500 700";
+        [snDatas addObject:data];
+        
+        
+        data = [SnData new];
+        data.ID = startID++;
+        data.name = @"汉口水岸";
+        data.district = SnDistrictHankou;
+        data.contacts = @[@{@"李经理":@"18908648976"}];
+        data.longitude = DEFAULT_LONGITUDE;
+        data.latitude = DEFAULT_LATITUDE;
+        data.address = @"不祥";
+        data.description = @"消费：300 500 700";
+        [snDatas addObject:data];
+        
+        
+        data = [SnData new];
+        data.ID = startID++;
+        data.name = @"民航酒店";
+        data.district = SnDistrictHankou;
+        data.contacts = @[@{@"金经理":@"13871556740"}];
+        data.longitude = 114.238036;
+        data.latitude = 30.627194;
+        data.address = @"江汉区常青路";
+        data.description = @"消费：300 500 700";
+        [snDatas addObject:data];
+        
+        
+        data = [SnData new];
+        data.ID = startID++;
+        data.name = @"安居缘";
+        data.district = SnDistrictWuchang;
+        data.contacts = @[@{@"夏经理":@"13971163469"}, @{@"余总":@"13517277762"}];
+        data.longitude = DEFAULT_LONGITUDE;
+        data.latitude = DEFAULT_LATITUDE;
+        data.address = @"不祥";
+        data.description = @"消费：300 500 700";
+        [snDatas addObject:data];
+        
+        
+        data = [SnData new];
+        data.ID = startID++;
+        data.name = @"樱花会所";
+        data.district = SnDistrictWuchang;
+        data.contacts = @[@{@"何经理":@"13986217234"}];
+        data.longitude = DEFAULT_LONGITUDE;
+        data.latitude = DEFAULT_LATITUDE;
+        data.address = @"不祥";
+        data.description = @"消费：300 500 700";
+        [snDatas addObject:data];       
     }
     
     return snDatas;

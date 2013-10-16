@@ -15,3 +15,5 @@
 #endif
 
 #define METERS_PER_MILE 1609.344
+
+#define FREE_VERSION    0
