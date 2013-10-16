@@ -27,7 +27,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.navigationItem.title = @"SN列表";
+    self.navigationItem.title = @"三镇SN，尽收眼底";
     _tv.backgroundColor = [UIColor colorWithWhite:.3 alpha:1];
 	
     _datas = [TMDDataFactory snDatas];

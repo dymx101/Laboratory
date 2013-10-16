@@ -9,7 +9,7 @@
 #import "TMDDataFactory.h"
 #import "SnData.h"
 
-
+// ★☆☆★☆
 //拾取坐标: http://api.map.baidu.com/lbsapi/getpoint/
 
 #define DEFAULT_LONGITUDE   (114.300488)
@@ -797,6 +797,42 @@ static NSMutableArray *snDatas = nil;
         data.latitude = 30.525522;
         data.address = @"武昌起义门";
         data.cost = @"消费：550~1580";
+        [snDatas addObject:data];
+        
+        
+        data = [SnData new];
+        data.ID = startID++;
+        data.name = @"豪门水会";
+        data.district = SnDistrictWuchang;
+        data.contacts = @[@{@"小汪":@"18627713279"}];
+        data.longitude = 114.307845;
+        data.latitude = 30.525522;
+        data.address = @"武昌起义门";
+        data.cost = @"消费：550~980";
+        [snDatas addObject:data];
+        
+        
+        data = [SnData new];
+        data.ID = startID++;
+        data.name = @"崇仁会所";
+        data.district = SnDistrictHankou;
+        data.contacts = @[@{@"小程":@"13098820027"}];
+        data.longitude = 114.261759;
+        data.latitude = 30.571406;
+        data.address = @"硚口崇仁路";
+        data.cost = @"消费：550~980";
+        [snDatas addObject:data];
+        
+        
+        data = [SnData new];
+        data.ID = startID++;
+        data.name = @"武昌时代会所";
+        data.district = SnDistrictWuchang;
+        data.contacts = @[@{@"上官":@"13627244305"}];
+        data.longitude = 114.308627;
+        data.latitude = 30.561053;
+        data.address = @"武昌积玉桥地铁站旁走50米万达对面";
+        data.cost = @"消费：600~1000";
         [snDatas addObject:data];
         
         
