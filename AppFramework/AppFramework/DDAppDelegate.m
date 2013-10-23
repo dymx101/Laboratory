@@ -41,13 +41,26 @@
      setDrawerVisualStateBlock:^(MMDrawerController *drawerController, MMDrawerSide drawerSide, CGFloat percentVisible) {
          MMDrawerControllerDrawerVisualStateBlock block;
          MMExampleDrawerVisualStateManager *sharedVisualManager = [MMExampleDrawerVisualStateManager sharedManager];
-         sharedVisualManager.leftDrawerAnimationType = MMDrawerAnimationTypeSlideAndScale;
+         sharedVisualManager.leftDrawerAnimationType = MMDrawerAnimationTypeSwingingDoor;
          sharedVisualManager.rightDrawerAnimationType = MMDrawerAnimationTypeParallax;
          
          block = [sharedVisualManager drawerVisualStateBlockForDrawerSide:drawerSide];
          if(block){
              block(drawerController, drawerSide, percentVisible);
          }
+         
+        //
+         UIViewController * sideDrawerViewController;
+//         if(drawerSide == MMDrawerSideLeft){
+//             sideDrawerViewController = drawerController.leftDrawerViewController;
+//         }
+//         else
+         
+             if(drawerSide == MMDrawerSideRight){
+             sideDrawerViewController = drawerController.rightDrawerViewController;
+         }
+         [sideDrawerViewController.view setAlpha:percentVisible];
+     
      }];
     
     
