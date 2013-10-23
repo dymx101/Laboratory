@@ -1,0 +1,24 @@
+PODS:
+  - EDColor (0.2.0)
+  - MMDrawerController (0.4.0):
+    - MMDrawerController/Core
+    - MMDrawerController/MMDrawerBarButtonItem
+    - MMDrawerController/MMDrawerVisualStates
+    - MMDrawerController/Subclass
+  - MMDrawerController/Core (0.4.0)
+  - MMDrawerController/MMDrawerBarButtonItem (0.4.0):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.4.0):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.4.0):
+    - MMDrawerController/Core
+
+DEPENDENCIES:
+  - EDColor
+  - MMDrawerController (~> 0.4.0)
+
+SPEC CHECKSUMS:
+  EDColor: ed4dec30508a1443971ba4148ed2ba9fdde45bc5
+  MMDrawerController: 44baaee6b79487b4681eb61597fb790586909c0c
+
+COCOAPODS: 0.22.2
