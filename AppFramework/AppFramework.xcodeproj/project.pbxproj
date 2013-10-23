@@ -19,6 +19,7 @@
 		EAA289221817C54100494FC6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA289211817C54100494FC6 /* Default-568h@2x.png */; };
 		EAA289281817C54100494FC6 /* DDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA289261817C54100494FC6 /* DDViewController.xib */; };
 		EAA289311817C8C100494FC6 /* DDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA289301817C8C100494FC6 /* DDViewController.m */; };
+		EAA289351817D8A100494FC6 /* MMExampleDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA289341817D8A100494FC6 /* MMExampleDrawerVisualStateManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		EAA289271817C54100494FC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DDViewController.xib; sourceTree = "<group>"; };
 		EAA2892F1817C8C100494FC6 /* DDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDViewController.h; sourceTree = "<group>"; };
 		EAA289301817C8C100494FC6 /* DDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDViewController.m; sourceTree = "<group>"; };
+		EAA289331817D8A100494FC6 /* MMExampleDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleDrawerVisualStateManager.h; sourceTree = "<group>"; };
+		EAA289341817D8A100494FC6 /* MMExampleDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleDrawerVisualStateManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,7 @@
 		EAA289111817C54100494FC6 /* AppFramework */ = {
 			isa = PBXGroup;
 			children = (
+				EAA289321817D8A100494FC6 /* Helpers */,
 				EAA2892E1817C89E00494FC6 /* ViewControllers */,
 				EAA2891A1817C54100494FC6 /* DDAppDelegate.h */,
 				EAA2891B1817C54100494FC6 /* DDAppDelegate.m */,
@@ -119,6 +123,15 @@
 				EAA289301817C8C100494FC6 /* DDViewController.m */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EAA289321817D8A100494FC6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EAA289331817D8A100494FC6 /* MMExampleDrawerVisualStateManager.h */,
+				EAA289341817D8A100494FC6 /* MMExampleDrawerVisualStateManager.m */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +239,7 @@
 				EAA289181817C54100494FC6 /* main.m in Sources */,
 				EAA2891C1817C54100494FC6 /* DDAppDelegate.m in Sources */,
 				EAA289311817C8C100494FC6 /* DDViewController.m in Sources */,
+				EAA289351817D8A100494FC6 /* MMExampleDrawerVisualStateManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

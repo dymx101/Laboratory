@@ -10,19 +10,20 @@
 
 #import "DDViewController.h"
 #import "MMDrawerController.h"
+#import "MMExampleDrawerVisualStateManager.h"
 
 @implementation DDAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+-(BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     //self.viewController = [[DDViewController alloc] initWithNibName:@"DDViewController" bundle:nil];
     
     
-    UIViewController * leftDrawer = [[DDTestLeftVC alloc] init];
-    UIViewController * center = [[DDTestCenterVC alloc] init];
-    UIViewController * rightDrawer = [[DDTestRightVC alloc] init];
+    UIViewController * leftDrawer = [[UINavigationController alloc] initWithRootViewController:[DDTestLeftVC new]];
+    UIViewController * center = [[UINavigationController alloc] initWithRootViewController:[DDTestCenterVC new]];
+    UIViewController * rightDrawer = [[UINavigationController alloc] initWithRootViewController:[DDTestRightVC new]];
     
     MMDrawerController * drawerController = [[MMDrawerController alloc]
                                              initWithCenterViewController:center
@@ -31,23 +32,36 @@
     
     [drawerController setRestorationIdentifier:@"MMDrawer"];
     [drawerController setMaximumRightDrawerWidth:100.0];
+    drawerController.maximumLeftDrawerWidth = 150;
+    drawerController.showsShadow = YES;
     [drawerController setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];
     [drawerController setCloseDrawerGestureModeMask:MMCloseDrawerGestureModeAll];
     
-//    [drawerController
-//     setDrawerVisualStateBlock:^(MMDrawerController *drawerController, MMDrawerSide drawerSide, CGFloat percentVisible) {
-//         MMDrawerControllerDrawerVisualStateBlock block;
-//         block = [[MMExampleDrawerVisualStateManager sharedManager]
-//                  drawerVisualStateBlockForDrawerSide:drawerSide];
-//         if(block){
-//             block(drawerController, drawerSide, percentVisible);
-//         }
-//     }];
-
+    [drawerController
+     setDrawerVisualStateBlock:^(MMDrawerController *drawerController, MMDrawerSide drawerSide, CGFloat percentVisible) {
+         MMDrawerControllerDrawerVisualStateBlock block;
+         MMExampleDrawerVisualStateManager *sharedVisualManager = [MMExampleDrawerVisualStateManager sharedManager];
+         sharedVisualManager.leftDrawerAnimationType = MMDrawerAnimationTypeSlideAndScale;
+         sharedVisualManager.rightDrawerAnimationType = MMDrawerAnimationTypeParallax;
+         
+         block = [sharedVisualManager drawerVisualStateBlockForDrawerSide:drawerSide];
+         if(block){
+             block(drawerController, drawerSide, percentVisible);
+         }
+     }];
+    
     
     
     self.window.rootViewController = drawerController;
+    
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    
     [self.window makeKeyAndVisible];
+    self.window.backgroundColor = [UIColor whiteColor];
     
     return YES;
 }

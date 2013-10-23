@@ -13,3 +13,8 @@
     #import <Foundation/Foundation.h>
 #import "EDColor.h"
 #endif
+
+
+static BOOL OSVersionIsAtLeastiOS6() {
+    return (floor(NSFoundationVersionNumber) > NSFoundationVersionNumber_iOS_5_1);
+}
