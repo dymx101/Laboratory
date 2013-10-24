@@ -12,6 +12,9 @@
 #import "MMDrawerController.h"
 #import "MMExampleDrawerVisualStateManager.h"
 
+
+#import "DDPlayAround.h"
+
 @implementation DDAppDelegate
 
 -(BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -75,54 +78,14 @@
     
     [self.window makeKeyAndVisible];
     
-    [self testCocoaLumberJack];
+    [DDPlayAround play];
     
     return YES;
 }
 
--(void)testCocoaLumberJack
-{
-    // init loggers and add them
-    [DDLog addLogger:[DDASLLogger sharedInstance]];
-    [DDLog addLogger:[DDTTYLogger sharedInstance]];
-    
-    DDFileLogger *fileLogger = [[DDFileLogger alloc] init];
-    fileLogger.rollingFrequency = 60 * 60 * 24; // 24 hour rolling
-    fileLogger.logFileManager.maximumNumberOfLogFiles = 7;
-    
-    [DDLog addLogger:fileLogger];
-    
-    //usage
-    DDLogError(@"Broken sprocket detected!");
-    NSString *filePath = @"Usr/Dong";
-    NSUInteger fileSize = 19999;
-    DDLogVerbose(@"User selected file:%@ withSize:%u", filePath, fileSize);
-    
-    
-    // And then enable colors
-    [[DDTTYLogger sharedInstance] setColorsEnabled:YES];
-    // Check out default colors:
-    // Error : Red
-    // Warn  : Orange
-    
-    DDLogError(@"Paper jam");                              // Red
-    DDLogWarn(@"Toner is low");                            // Orange
-    DDLogInfo(@"Warming up printer (pre-customization)");  // Default (black)
-    DDLogVerbose(@"Intializing protcol x26");              // Default (black)
-    
-    // Now let's do some customization:
-    // Info  : Pink
-    
-#if TARGET_OS_IPHONE
-    UIColor *pink = [UIColor colorWithRed:(255/255.0) green:(58/255.0) blue:(159/255.0) alpha:1.0];
-#else
-    NSColor *pink = [NSColor colorWithCalibratedRed:(255/255.0) green:(58/255.0) blue:(159/255.0) alpha:1.0];
-#endif
-    
-    [[DDTTYLogger sharedInstance] setForegroundColor:pink backgroundColor:nil forFlag:LOG_FLAG_INFO];
-    
-    DDLogInfo(@"Warming up printer (post-customization)"); // Pink !
-}
+
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application{}
 - (void)applicationDidEnterBackground:(UIApplication *)application{}

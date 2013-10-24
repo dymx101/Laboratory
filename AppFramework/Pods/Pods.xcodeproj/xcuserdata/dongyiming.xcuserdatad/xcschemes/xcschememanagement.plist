@@ -19,6 +19,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>Pods-FMDB.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>Pods-MMDrawerController.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -37,12 +42,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>0810EBB9EC4D4E1C9517E926</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>110417A0607F47ED8FDE98FF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>11A357A3858147D3B3C9EBF6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1C8C62E5635642DD9EB580B7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -72,6 +87,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>37F7A3B25AF046F68B4ACD38</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>39E9B2EE2E044E1E8FCF4836</key>
 		<dict>
 			<key>primary</key>
@@ -92,6 +112,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>6F014D17044C47A39D885920</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>750373E99FC247E892CF9F7C</key>
 		<dict>
 			<key>primary</key>
@@ -103,6 +128,16 @@
 			<true/>
 		</dict>
 		<key>7DBDBDE0F178438DBCCB3297</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>852EA529F8EA4915A4637511</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9BE730383BE641AF8DBD90D0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -24,6 +24,8 @@
 		EACBA34A1818F9B4002ACB78 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACBA3491818F9B4002ACB78 /* Accelerate.framework */; };
 		EACBA35118190235002ACB78 /* CPDConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EACBA34E18190235002ACB78 /* CPDConstants.m */; };
 		EACBA35218190235002ACB78 /* CPDStockPriceStore.m in Sources */ = {isa = PBXBuildFile; fileRef = EACBA35018190235002ACB78 /* CPDStockPriceStore.m */; };
+		EACBA35518190C0A002ACB78 /* DDPlayAround.m in Sources */ = {isa = PBXBuildFile; fileRef = EACBA35418190C0A002ACB78 /* DDPlayAround.m */; };
+		EACBA35718190D86002ACB78 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EACBA35618190D86002ACB78 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,9 @@
 		EACBA34E18190235002ACB78 /* CPDConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPDConstants.m; sourceTree = "<group>"; };
 		EACBA34F18190235002ACB78 /* CPDStockPriceStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDStockPriceStore.h; sourceTree = "<group>"; };
 		EACBA35018190235002ACB78 /* CPDStockPriceStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPDStockPriceStore.m; sourceTree = "<group>"; };
+		EACBA35318190C0A002ACB78 /* DDPlayAround.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPlayAround.h; sourceTree = "<group>"; };
+		EACBA35418190C0A002ACB78 /* DDPlayAround.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPlayAround.m; sourceTree = "<group>"; };
+		EACBA35618190D86002ACB78 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EACBA35718190D86002ACB78 /* libsqlite3.dylib in Frameworks */,
 				EACBA34A1818F9B4002ACB78 /* Accelerate.framework in Frameworks */,
 				EACBA3481818F99C002ACB78 /* QuartzCore.framework in Frameworks */,
 				EAA2890C1817C54100494FC6 /* UIKit.framework in Frameworks */,
@@ -93,6 +99,7 @@
 		EAA2890A1817C54100494FC6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EACBA35618190D86002ACB78 /* libsqlite3.dylib */,
 				EACBA3491818F9B4002ACB78 /* Accelerate.framework */,
 				EACBA3471818F99C002ACB78 /* QuartzCore.framework */,
 				EAA2890B1817C54100494FC6 /* UIKit.framework */,
@@ -153,6 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				EACBA34C18190235002ACB78 /* CorePlot */,
+				EACBA35318190C0A002ACB78 /* DDPlayAround.h */,
+				EACBA35418190C0A002ACB78 /* DDPlayAround.m */,
 			);
 			path = PlayPodFeatures;
 			sourceTree = "<group>";
@@ -276,6 +285,7 @@
 				EAA289351817D8A100494FC6 /* MMExampleDrawerVisualStateManager.m in Sources */,
 				EACBA35118190235002ACB78 /* CPDConstants.m in Sources */,
 				EACBA35218190235002ACB78 /* CPDStockPriceStore.m in Sources */,
+				EACBA35518190C0A002ACB78 /* DDPlayAround.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
