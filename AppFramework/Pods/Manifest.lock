@@ -19,6 +19,8 @@ PODS:
     - MMDrawerController/Core
   - MMDrawerController/Subclass (0.4.0):
     - MMDrawerController/Core
+  - SSToolkit (1.0.4)
+  - TTTAttributedLabel (1.7.1)
 
 DEPENDENCIES:
   - CocoaLumberjack
@@ -26,6 +28,8 @@ DEPENDENCIES:
   - EDColor
   - FMDB
   - MMDrawerController (~> 0.4.0)
+  - SSToolkit
+  - TTTAttributedLabel
 
 SPEC CHECKSUMS:
   CocoaLumberjack: d73e1e317ced14ab930797dda6c17156ff17aaa1
@@ -33,5 +37,7 @@ SPEC CHECKSUMS:
   EDColor: ed4dec30508a1443971ba4148ed2ba9fdde45bc5
   FMDB: 3fd5aaf632ca4ed39e3f101e0398504e6d5b0918
   MMDrawerController: 44baaee6b79487b4681eb61597fb790586909c0c
+  SSToolkit: 689acaedac79c2079e492e528a55bcb5db9d98c4
+  TTTAttributedLabel: e504133915a9b11de63cb470ffa2790383a3eb23
 
 COCOAPODS: 0.22.2

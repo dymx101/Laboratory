@@ -26,6 +26,8 @@
 		EACBA35218190235002ACB78 /* CPDStockPriceStore.m in Sources */ = {isa = PBXBuildFile; fileRef = EACBA35018190235002ACB78 /* CPDStockPriceStore.m */; };
 		EACBA35518190C0A002ACB78 /* DDPlayAround.m in Sources */ = {isa = PBXBuildFile; fileRef = EACBA35418190C0A002ACB78 /* DDPlayAround.m */; };
 		EACBA35718190D86002ACB78 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EACBA35618190D86002ACB78 /* libsqlite3.dylib */; };
+		EACBA35918192270002ACB78 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACBA35818192270002ACB78 /* SystemConfiguration.framework */; };
+		EACBA35B1819227B002ACB78 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACBA35A1819227B002ACB78 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		EACBA35318190C0A002ACB78 /* DDPlayAround.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPlayAround.h; sourceTree = "<group>"; };
 		EACBA35418190C0A002ACB78 /* DDPlayAround.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPlayAround.m; sourceTree = "<group>"; };
 		EACBA35618190D86002ACB78 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		EACBA35818192270002ACB78 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EACBA35A1819227B002ACB78 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EACBA35B1819227B002ACB78 /* MobileCoreServices.framework in Frameworks */,
+				EACBA35918192270002ACB78 /* SystemConfiguration.framework in Frameworks */,
 				EACBA35718190D86002ACB78 /* libsqlite3.dylib in Frameworks */,
 				EACBA34A1818F9B4002ACB78 /* Accelerate.framework in Frameworks */,
 				EACBA3481818F99C002ACB78 /* QuartzCore.framework in Frameworks */,
@@ -99,6 +105,8 @@
 		EAA2890A1817C54100494FC6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EACBA35A1819227B002ACB78 /* MobileCoreServices.framework */,
+				EACBA35818192270002ACB78 /* SystemConfiguration.framework */,
 				EACBA35618190D86002ACB78 /* libsqlite3.dylib */,
 				EACBA3491818F9B4002ACB78 /* Accelerate.framework */,
 				EACBA3471818F99C002ACB78 /* QuartzCore.framework */,

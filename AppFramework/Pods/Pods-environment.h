@@ -72,3 +72,15 @@
 #define COCOAPODS_VERSION_MINOR_MMDrawerController_Subclass 4
 #define COCOAPODS_VERSION_PATCH_MMDrawerController_Subclass 0
 
+// SSToolkit
+#define COCOAPODS_POD_AVAILABLE_SSToolkit
+#define COCOAPODS_VERSION_MAJOR_SSToolkit 1
+#define COCOAPODS_VERSION_MINOR_SSToolkit 0
+#define COCOAPODS_VERSION_PATCH_SSToolkit 4
+
+// TTTAttributedLabel
+#define COCOAPODS_POD_AVAILABLE_TTTAttributedLabel
+#define COCOAPODS_VERSION_MAJOR_TTTAttributedLabel 1
+#define COCOAPODS_VERSION_MINOR_TTTAttributedLabel 7
+#define COCOAPODS_VERSION_PATCH_TTTAttributedLabel 1
+
