@@ -12,6 +12,12 @@
 #define COCOAPODS_VERSION_MINOR_CocoaLumberjack 6
 #define COCOAPODS_VERSION_PATCH_CocoaLumberjack 2
 
+// CorePlot
+#define COCOAPODS_POD_AVAILABLE_CorePlot
+#define COCOAPODS_VERSION_MAJOR_CorePlot 1
+#define COCOAPODS_VERSION_MINOR_CorePlot 4
+#define COCOAPODS_VERSION_PATCH_CorePlot 0
+
 // EDColor
 #define COCOAPODS_POD_AVAILABLE_EDColor
 #define COCOAPODS_VERSION_MAJOR_EDColor 0

@@ -20,6 +20,10 @@
 		EAA289281817C54100494FC6 /* DDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA289261817C54100494FC6 /* DDViewController.xib */; };
 		EAA289311817C8C100494FC6 /* DDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA289301817C8C100494FC6 /* DDViewController.m */; };
 		EAA289351817D8A100494FC6 /* MMExampleDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA289341817D8A100494FC6 /* MMExampleDrawerVisualStateManager.m */; };
+		EACBA3481818F99C002ACB78 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACBA3471818F99C002ACB78 /* QuartzCore.framework */; };
+		EACBA34A1818F9B4002ACB78 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACBA3491818F9B4002ACB78 /* Accelerate.framework */; };
+		EACBA35118190235002ACB78 /* CPDConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EACBA34E18190235002ACB78 /* CPDConstants.m */; };
+		EACBA35218190235002ACB78 /* CPDStockPriceStore.m in Sources */ = {isa = PBXBuildFile; fileRef = EACBA35018190235002ACB78 /* CPDStockPriceStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +47,12 @@
 		EAA289301817C8C100494FC6 /* DDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDViewController.m; sourceTree = "<group>"; };
 		EAA289331817D8A100494FC6 /* MMExampleDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleDrawerVisualStateManager.h; sourceTree = "<group>"; };
 		EAA289341817D8A100494FC6 /* MMExampleDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleDrawerVisualStateManager.m; sourceTree = "<group>"; };
+		EACBA3471818F99C002ACB78 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EACBA3491818F9B4002ACB78 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		EACBA34D18190235002ACB78 /* CPDConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDConstants.h; sourceTree = "<group>"; };
+		EACBA34E18190235002ACB78 /* CPDConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPDConstants.m; sourceTree = "<group>"; };
+		EACBA34F18190235002ACB78 /* CPDStockPriceStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDStockPriceStore.h; sourceTree = "<group>"; };
+		EACBA35018190235002ACB78 /* CPDStockPriceStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPDStockPriceStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EACBA34A1818F9B4002ACB78 /* Accelerate.framework in Frameworks */,
+				EACBA3481818F99C002ACB78 /* QuartzCore.framework in Frameworks */,
 				EAA2890C1817C54100494FC6 /* UIKit.framework in Frameworks */,
 				EAA2890E1817C54100494FC6 /* Foundation.framework in Frameworks */,
 				EAA289101817C54100494FC6 /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +93,8 @@
 		EAA2890A1817C54100494FC6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EACBA3491818F9B4002ACB78 /* Accelerate.framework */,
+				EACBA3471818F99C002ACB78 /* QuartzCore.framework */,
 				EAA2890B1817C54100494FC6 /* UIKit.framework */,
 				EAA2890D1817C54100494FC6 /* Foundation.framework */,
 				EAA2890F1817C54100494FC6 /* CoreGraphics.framework */,
@@ -92,6 +106,7 @@
 		EAA289111817C54100494FC6 /* AppFramework */ = {
 			isa = PBXGroup;
 			children = (
+				EACBA34B18190235002ACB78 /* PlayPodFeatures */,
 				EAA289321817D8A100494FC6 /* Helpers */,
 				EAA2892E1817C89E00494FC6 /* ViewControllers */,
 				EAA2891A1817C54100494FC6 /* DDAppDelegate.h */,
@@ -132,6 +147,25 @@
 				EAA289341817D8A100494FC6 /* MMExampleDrawerVisualStateManager.m */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EACBA34B18190235002ACB78 /* PlayPodFeatures */ = {
+			isa = PBXGroup;
+			children = (
+				EACBA34C18190235002ACB78 /* CorePlot */,
+			);
+			path = PlayPodFeatures;
+			sourceTree = "<group>";
+		};
+		EACBA34C18190235002ACB78 /* CorePlot */ = {
+			isa = PBXGroup;
+			children = (
+				EACBA34D18190235002ACB78 /* CPDConstants.h */,
+				EACBA34E18190235002ACB78 /* CPDConstants.m */,
+				EACBA34F18190235002ACB78 /* CPDStockPriceStore.h */,
+				EACBA35018190235002ACB78 /* CPDStockPriceStore.m */,
+			);
+			path = CorePlot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +274,8 @@
 				EAA2891C1817C54100494FC6 /* DDAppDelegate.m in Sources */,
 				EAA289311817C8C100494FC6 /* DDViewController.m in Sources */,
 				EAA289351817D8A100494FC6 /* MMExampleDrawerVisualStateManager.m in Sources */,
+				EACBA35118190235002ACB78 /* CPDConstants.m in Sources */,
+				EACBA35218190235002ACB78 /* CPDStockPriceStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

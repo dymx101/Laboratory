@@ -1,5 +1,6 @@
 PODS:
   - CocoaLumberjack (1.6.2)
+  - CorePlot (1.4)
   - EDColor (0.2.0)
   - MMDrawerController (0.4.0):
     - MMDrawerController/Core
@@ -16,11 +17,13 @@ PODS:
 
 DEPENDENCIES:
   - CocoaLumberjack
+  - CorePlot
   - EDColor
   - MMDrawerController (~> 0.4.0)
 
 SPEC CHECKSUMS:
   CocoaLumberjack: d73e1e317ced14ab930797dda6c17156ff17aaa1
+  CorePlot: 620ec9763d92cc0478eae469c515132df317e24e
   EDColor: ed4dec30508a1443971ba4148ed2ba9fdde45bc5
   MMDrawerController: 44baaee6b79487b4681eb61597fb790586909c0c
 
