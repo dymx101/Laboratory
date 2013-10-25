@@ -10,13 +10,16 @@
 
 #import "FMDatabase.h"
 #import "FMDatabaseQueue.h"
+#import "Person.h"
+//#import "CoreData+MagicalRecord.h"
 
 @implementation DDPlayAround
 
 +(void)play
 {
     [self testCocoaLumberJack];
-    [self testFMDB];
+    //[self testFMDB];
+    [self testMagicRecord];
 }
 
 +(void)testCocoaLumberJack
@@ -203,6 +206,92 @@
     });
 }
 
+#pragma mark - Magic Record
++(void)testMagicRecord
+{
+    [self persistNewPersonWithFirstname:@"Daniel" lastname:@"Dong" age:@(36)];
+    [self persistNewPersonWithFirstname:@"Roshen" lastname:@"Lei" age:@(26)];
+    
+    // Query to find all the persons store into the database
+    NSArray *persons = [Person MR_findAll];
+    DDLogVerbose(@"%@", persons);
+    
+    // Query to find all the persons store into the database order by their 'firstname'
+    NSArray *personsSorted = [Person MR_findAllSortedBy:@"firstname" ascending:YES];
+    DDLogInfo(@"%@", personsSorted);
+    
+    // Query to find all the persons store into the database which have 25 years old
+    NSArray *personsWhoHave22 = [Person MR_findByAttribute:@"age" withValue:@(26)];
+    DDLogWarn(@"%@", personsWhoHave22);
+    
+    // Query to find the first person store into the databe
+    Person *person = [Person MR_findFirst];
+    DDLogError(@"%@", person);
+    
+    [self updateAge:@(30) ofPersonWithFirstname:@"Daniel" lastname:@"Dong"];
+    
+    NSArray *personsWhoIs30 = [Person MR_findByAttribute:@"age" withValue:@(30)];
+    DDLogWarn(@"%@", personsWhoIs30);
+    
+    [self deleteFirstPersonWithFirstname:@"Daniel"];
+    persons = [Person MR_findAll];
+    DDLogInfo(@"%@", persons);
+    
+    [self deleteFirstPersonWithFirstname:@"Roshen"];
+}
 
++ (void)persistNewPersonWithFirstname:(NSString *)firstname lastname:(NSString *)lastname age:(NSNumber *)age
+{
+    // Get the local context
+    NSManagedObjectContext *localContext = [NSManagedObjectContext MR_contextForCurrentThread];
+    
+    // Create a new Person in the current thread context
+    Person *person = [Person MR_createInContext:localContext];
+    person.firstname = firstname;
+    person.lastname = lastname;
+    person.age = age;
+    
+    // Save the modification in the local context
+    // With MagicalRecords 2.0.8 or newer you should use the MR_saveNestedContexts
+    [localContext MR_saveToPersistentStoreAndWait];
+}
+
+
+
++ (void)updateAge:(NSNumber *)newAge ofPersonWithFirstname:(NSString *)firstname lastname:(NSString *)lastname
+{
+    // Get the local context
+    NSManagedObjectContext *localContext = [NSManagedObjectContext MR_contextForCurrentThread];
+    
+    // Build the predicate to find the person sought
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"firstname ==[c] %@ AND lastname ==[c] %@", firstname, lastname];
+    Person *personFounded = [Person MR_findFirstWithPredicate:predicate inContext:localContext];
+    
+    // If a person was founded
+    if (personFounded)
+    {
+        // Update its age
+        personFounded.age = newAge;
+        // Save the modification in the local context
+        // With MagicalRecords 2.0.8 or newer you should use the MR_saveNestedContexts
+        [localContext MR_saveToPersistentStoreAndWait];
+    }
+}
+
++ (void)deleteFirstPersonWithFirstname:(NSString *)firstname
+{
+    // Get the local context
+    NSManagedObjectContext *localContext = [NSManagedObjectContext MR_contextForCurrentThread];
+    // Retrieve the first person who have the given firstname
+    Person *personFounded = [Person MR_findFirstByAttribute:@"firstname" withValue:firstname inContext:localContext];
+    if (personFounded) {
+        // Delete the person found
+        [personFounded MR_deleteInContext:localContext];
+        
+        // Save the modification in the local context
+        // With MagicalRecords 2.0.8 or newer you should use the MR_saveNestedContexts
+        [localContext MR_saveToPersistentStoreAndWait];
+    }
+}
 
 @end

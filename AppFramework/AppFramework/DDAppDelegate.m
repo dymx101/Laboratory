@@ -78,6 +78,8 @@
     
     [self.window makeKeyAndVisible];
     
+    [MagicalRecord setupCoreDataStackWithStoreNamed:@"MyDatabase.sqlite"];
+    
     [DDPlayAround play];
     
     return YES;
@@ -91,6 +93,10 @@
 - (void)applicationDidEnterBackground:(UIApplication *)application{}
 - (void)applicationWillEnterForeground:(UIApplication *)application{}
 - (void)applicationDidBecomeActive:(UIApplication *)application{}
-- (void)applicationWillTerminate:(UIApplication *)application{}
+
+- (void)applicationWillTerminate:(UIApplication *)application
+{
+    [MagicalRecord cleanUp];
+}
 
 @end

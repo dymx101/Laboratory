@@ -8,4 +8,5 @@ pod 'FMDB'
 # pod 'FMDB/SQLCipher'   # If using FMDB with SQLCipher
 # pod 'Nimbus'
 pod 'TTTAttributedLabel'
-pod 'SSToolkit'
+# pod 'SSToolkit'
+pod 'MagicalRecord'

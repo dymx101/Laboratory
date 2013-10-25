@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C9AA6375D5664982A186CEB9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3089EB9AE146A2A9A49C05 /* libPods.a */; };
+		EA978380181A381D00EAE822 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA97837E181A381D00EAE822 /* Model.xcdatamodeld */; };
+		EA978383181A38E500EAE822 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EA978382181A38E500EAE822 /* Person.m */; };
 		EAA2890C1817C54100494FC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA2890B1817C54100494FC6 /* UIKit.framework */; };
 		EAA2890E1817C54100494FC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA2890D1817C54100494FC6 /* Foundation.framework */; };
 		EAA289101817C54100494FC6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA2890F1817C54100494FC6 /* CoreGraphics.framework */; };
@@ -33,6 +35,9 @@
 /* Begin PBXFileReference section */
 		878B7E337EB14E57AA1A5FFF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		DD3089EB9AE146A2A9A49C05 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA97837F181A381D00EAE822 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		EA978381181A38E500EAE822 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		EA978382181A38E500EAE822 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		EAA289081817C54100494FC6 /* AppFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA2890B1817C54100494FC6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EAA2890D1817C54100494FC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -84,6 +89,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA97837D181A380F00EAE822 /* MagicRecord */ = {
+			isa = PBXGroup;
+			children = (
+				EA97837E181A381D00EAE822 /* Model.xcdatamodeld */,
+				EA978381181A38E500EAE822 /* Person.h */,
+				EA978382181A38E500EAE822 /* Person.m */,
+			);
+			path = MagicRecord;
+			sourceTree = "<group>";
+		};
 		EAA288FF1817C54100494FC6 = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +182,7 @@
 		EACBA34B18190235002ACB78 /* PlayPodFeatures */ = {
 			isa = PBXGroup;
 			children = (
+				EA97837D181A380F00EAE822 /* MagicRecord */,
 				EACBA34C18190235002ACB78 /* CorePlot */,
 				EACBA35318190C0A002ACB78 /* DDPlayAround.h */,
 				EACBA35418190C0A002ACB78 /* DDPlayAround.m */,
@@ -294,6 +310,8 @@
 				EACBA35118190235002ACB78 /* CPDConstants.m in Sources */,
 				EACBA35218190235002ACB78 /* CPDStockPriceStore.m in Sources */,
 				EACBA35518190C0A002ACB78 /* DDPlayAround.m in Sources */,
+				EA978380181A381D00EAE822 /* Model.xcdatamodeld in Sources */,
+				EA978383181A38E500EAE822 /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +439,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EA97837E181A381D00EAE822 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA97837F181A381D00EAE822 /* Model.xcdatamodel */,
+			);
+			currentVersion = EA97837F181A381D00EAE822 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EAA289001817C54100494FC6 /* Project object */;
 }

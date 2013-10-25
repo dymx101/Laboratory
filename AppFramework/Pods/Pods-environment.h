@@ -72,11 +72,11 @@
 #define COCOAPODS_VERSION_MINOR_MMDrawerController_Subclass 4
 #define COCOAPODS_VERSION_PATCH_MMDrawerController_Subclass 0
 
-// SSToolkit
-#define COCOAPODS_POD_AVAILABLE_SSToolkit
-#define COCOAPODS_VERSION_MAJOR_SSToolkit 1
-#define COCOAPODS_VERSION_MINOR_SSToolkit 0
-#define COCOAPODS_VERSION_PATCH_SSToolkit 4
+// MagicalRecord
+#define COCOAPODS_POD_AVAILABLE_MagicalRecord
+#define COCOAPODS_VERSION_MAJOR_MagicalRecord 2
+#define COCOAPODS_VERSION_MINOR_MagicalRecord 2
+#define COCOAPODS_VERSION_PATCH_MagicalRecord 0
 
 // TTTAttributedLabel
 #define COCOAPODS_POD_AVAILABLE_TTTAttributedLabel

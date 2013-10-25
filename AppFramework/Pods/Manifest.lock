@@ -7,6 +7,7 @@ PODS:
   - FMDB/common (2.1)
   - FMDB/standard (2.1):
     - FMDB/common
+  - MagicalRecord (2.2)
   - MMDrawerController (0.4.0):
     - MMDrawerController/Core
     - MMDrawerController/MMDrawerBarButtonItem
@@ -19,7 +20,6 @@ PODS:
     - MMDrawerController/Core
   - MMDrawerController/Subclass (0.4.0):
     - MMDrawerController/Core
-  - SSToolkit (1.0.4)
   - TTTAttributedLabel (1.7.1)
 
 DEPENDENCIES:
@@ -27,8 +27,8 @@ DEPENDENCIES:
   - CorePlot
   - EDColor
   - FMDB
+  - MagicalRecord
   - MMDrawerController (~> 0.4.0)
-  - SSToolkit
   - TTTAttributedLabel
 
 SPEC CHECKSUMS:
@@ -36,8 +36,8 @@ SPEC CHECKSUMS:
   CorePlot: 620ec9763d92cc0478eae469c515132df317e24e
   EDColor: ed4dec30508a1443971ba4148ed2ba9fdde45bc5
   FMDB: 3fd5aaf632ca4ed39e3f101e0398504e6d5b0918
+  MagicalRecord: b1fc46c99a9749fe7fe7e6f43a89b62ef5201933
   MMDrawerController: 44baaee6b79487b4681eb61597fb790586909c0c
-  SSToolkit: 689acaedac79c2079e492e528a55bcb5db9d98c4
   TTTAttributedLabel: e504133915a9b11de63cb470ffa2790383a3eb23
 
 COCOAPODS: 0.22.2

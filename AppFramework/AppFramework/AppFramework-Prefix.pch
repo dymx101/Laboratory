@@ -20,7 +20,7 @@
 #import "DDASLLogger.h"
 #import "DDTTYLogger.h"
 #import "DDFileLogger.h"
-
+#import "CoreData+MagicalRecord.h"
 
 #endif
 
