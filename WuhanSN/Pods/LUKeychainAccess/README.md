@@ -34,6 +34,10 @@ This option can be set in `LUKeychainAccess` through the `accessibilityState` pa
 
 The default value is `LUKeychainAccessAttrAccessibleWhenUnlocked`.
 
+## Error Handling
+
+An instance of `LUKeychainAccess` may be optionally given a error handler, which can be any object that implements the `LUKeychainErrorHandler` protocol. This error handler will be notified if an error occurs.
+
 ## Requirements
 
 `LUKeychainAccess` requires iOS 5.0+. The tests are written using [Kiwi](https://github.com/allending/Kiwi).
