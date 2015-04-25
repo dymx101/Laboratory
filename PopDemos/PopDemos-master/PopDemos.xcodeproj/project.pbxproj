@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29542DDA19623B170003BFA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29542DD919623B170003BFA6 /* Foundation.framework */; };
+		29542DDC19623B170003BFA6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29542DDB19623B170003BFA6 /* CoreGraphics.framework */; };
+		29542DDE19623B170003BFA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29542DDD19623B170003BFA6 /* UIKit.framework */; };
+		29542DE419623B170003BFA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29542DE219623B170003BFA6 /* InfoPlist.strings */; };
+		29542DE619623B170003BFA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29542DE519623B170003BFA6 /* main.m */; };
+		29542DEA19623B170003BFA6 /* RWTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29542DE919623B170003BFA6 /* RWTAppDelegate.m */; };
+		29542DEC19623B170003BFA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29542DEB19623B170003BFA6 /* Images.xcassets */; };
+		29542DF319623B170003BFA6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29542DF219623B170003BFA6 /* XCTest.framework */; };
+		29542DF419623B170003BFA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29542DD919623B170003BFA6 /* Foundation.framework */; };
+		29542DF519623B170003BFA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29542DDD19623B170003BFA6 /* UIKit.framework */; };
+		29542DFD19623B170003BFA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29542DFB19623B170003BFA6 /* InfoPlist.strings */; };
+		29542DFF19623B170003BFA6 /* PopDemosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29542DFE19623B170003BFA6 /* PopDemosTests.m */; };
+		29542E0919623B8C0003BFA6 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29542E0819623B8C0003BFA6 /* Storyboard.storyboard */; };
+		29542E0C196242AB0003BFA6 /* RWTUIKitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29542E0B196242AB0003BFA6 /* RWTUIKitController.m */; };
+		29542E121962452D0003BFA6 /* RWTRACController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29542E111962452D0003BFA6 /* RWTRACController.m */; };
+		29542E1519624CC60003BFA6 /* facebook-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 29542E1319624CC60003BFA6 /* facebook-icon.png */; };
+		29542E1619624CC60003BFA6 /* facebook-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29542E1419624CC60003BFA6 /* facebook-icon@2x.png */; };
+		29542E1919624D2B0003BFA6 /* RWTInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29542E1819624D2B0003BFA6 /* RWTInteractionController.m */; };
+		29542E1C1962520C0003BFA6 /* kimon.png in Resources */ = {isa = PBXBuildFile; fileRef = 29542E1A1962520C0003BFA6 /* kimon.png */; };
+		29542E1D1962520C0003BFA6 /* kimon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29542E1B1962520C0003BFA6 /* kimon@2x.png */; };
+		29542E201962567B0003BFA6 /* rick.png in Resources */ = {isa = PBXBuildFile; fileRef = 29542E1E1962567A0003BFA6 /* rick.png */; };
+		29542E211962567B0003BFA6 /* rick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29542E1F1962567A0003BFA6 /* rick@2x.png */; };
+		29542E24196256F60003BFA6 /* RWTCurtainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29542E23196256F60003BFA6 /* RWTCurtainController.m */; };
+		29542E271962591A0003BFA6 /* BCMeshTransform+DemoTransforms.m in Sources */ = {isa = PBXBuildFile; fileRef = 29542E261962591A0003BFA6 /* BCMeshTransform+DemoTransforms.m */; };
+		29542E2A196265490003BFA6 /* RWTAutoLayoutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29542E29196265490003BFA6 /* RWTAutoLayoutController.m */; };
+		29542E2D196269C50003BFA6 /* RWTAnimationsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29542E2C196269C50003BFA6 /* RWTAnimationsController.m */; };
+		A5F553CB13724F53B09225B1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 083854A9142F44E5AB85647C /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29542DF619623B170003BFA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29542DCE19623B170003BFA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29542DD519623B170003BFA6;
+			remoteInfo = PopDemos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		083854A9142F44E5AB85647C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		29542DD619623B170003BFA6 /* PopDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29542DD919623B170003BFA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		29542DDB19623B170003BFA6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29542DDD19623B170003BFA6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		29542DE119623B170003BFA6 /* PopDemos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PopDemos-Info.plist"; sourceTree = "<group>"; };
+		29542DE319623B170003BFA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		29542DE519623B170003BFA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29542DE719623B170003BFA6 /* PopDemos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PopDemos-Prefix.pch"; sourceTree = "<group>"; };
+		29542DE819623B170003BFA6 /* RWTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWTAppDelegate.h; sourceTree = "<group>"; };
+		29542DE919623B170003BFA6 /* RWTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWTAppDelegate.m; sourceTree = "<group>"; };
+		29542DEB19623B170003BFA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		29542DF119623B170003BFA6 /* PopDemosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopDemosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29542DF219623B170003BFA6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		29542DFA19623B170003BFA6 /* PopDemosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PopDemosTests-Info.plist"; sourceTree = "<group>"; };
+		29542DFC19623B170003BFA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		29542DFE19623B170003BFA6 /* PopDemosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopDemosTests.m; sourceTree = "<group>"; };
+		29542E0819623B8C0003BFA6 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = PopDemos/Storyboard.storyboard; sourceTree = "<group>"; };
+		29542E0A196242AB0003BFA6 /* RWTUIKitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWTUIKitController.h; path = PopDemos/RWTUIKitController.h; sourceTree = "<group>"; };
+		29542E0B196242AB0003BFA6 /* RWTUIKitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWTUIKitController.m; path = PopDemos/RWTUIKitController.m; sourceTree = "<group>"; };
+		29542E101962452D0003BFA6 /* RWTRACController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWTRACController.h; path = PopDemos/RWTRACController.h; sourceTree = "<group>"; };
+		29542E111962452D0003BFA6 /* RWTRACController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWTRACController.m; path = PopDemos/RWTRACController.m; sourceTree = "<group>"; };
+		29542E1319624CC60003BFA6 /* facebook-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "facebook-icon.png"; path = "PopDemos/facebook-icon.png"; sourceTree = "<group>"; };
+		29542E1419624CC60003BFA6 /* facebook-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "facebook-icon@2x.png"; path = "PopDemos/facebook-icon@2x.png"; sourceTree = "<group>"; };
+		29542E1719624D2B0003BFA6 /* RWTInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWTInteractionController.h; path = PopDemos/RWTInteractionController.h; sourceTree = "<group>"; };
+		29542E1819624D2B0003BFA6 /* RWTInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWTInteractionController.m; path = PopDemos/RWTInteractionController.m; sourceTree = "<group>"; };
+		29542E1A1962520C0003BFA6 /* kimon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kimon.png; path = PopDemos/kimon.png; sourceTree = "<group>"; };
+		29542E1B1962520C0003BFA6 /* kimon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "kimon@2x.png"; path = "PopDemos/kimon@2x.png"; sourceTree = "<group>"; };
+		29542E1E1962567A0003BFA6 /* rick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rick.png; path = PopDemos/rick.png; sourceTree = "<group>"; };
+		29542E1F1962567A0003BFA6 /* rick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rick@2x.png"; path = "PopDemos/rick@2x.png"; sourceTree = "<group>"; };
+		29542E22196256F60003BFA6 /* RWTCurtainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWTCurtainController.h; path = PopDemos/RWTCurtainController.h; sourceTree = "<group>"; };
+		29542E23196256F60003BFA6 /* RWTCurtainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWTCurtainController.m; path = PopDemos/RWTCurtainController.m; sourceTree = "<group>"; };
+		29542E251962591A0003BFA6 /* BCMeshTransform+DemoTransforms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BCMeshTransform+DemoTransforms.h"; path = "PopDemos/BCMeshTransform+DemoTransforms.h"; sourceTree = "<group>"; };
+		29542E261962591A0003BFA6 /* BCMeshTransform+DemoTransforms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BCMeshTransform+DemoTransforms.m"; path = "PopDemos/BCMeshTransform+DemoTransforms.m"; sourceTree = "<group>"; };
+		29542E28196265490003BFA6 /* RWTAutoLayoutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWTAutoLayoutController.h; path = PopDemos/RWTAutoLayoutController.h; sourceTree = "<group>"; };
+		29542E29196265490003BFA6 /* RWTAutoLayoutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWTAutoLayoutController.m; path = PopDemos/RWTAutoLayoutController.m; sourceTree = "<group>"; };
+		29542E2B196269C50003BFA6 /* RWTAnimationsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWTAnimationsController.h; path = PopDemos/RWTAnimationsController.h; sourceTree = "<group>"; };
+		29542E2C196269C50003BFA6 /* RWTAnimationsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWTAnimationsController.m; path = PopDemos/RWTAnimationsController.m; sourceTree = "<group>"; };
+		463632E023EB4867A185101B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29542DD319623B170003BFA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29542DDC19623B170003BFA6 /* CoreGraphics.framework in Frameworks */,
+				29542DDE19623B170003BFA6 /* UIKit.framework in Frameworks */,
+				29542DDA19623B170003BFA6 /* Foundation.framework in Frameworks */,
+				A5F553CB13724F53B09225B1 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29542DEE19623B170003BFA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29542DF319623B170003BFA6 /* XCTest.framework in Frameworks */,
+				29542DF519623B170003BFA6 /* UIKit.framework in Frameworks */,
+				29542DF419623B170003BFA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29542DCD19623B170003BFA6 = {
+			isa = PBXGroup;
+			children = (
+				29542E2F1962727B0003BFA6 /* BCMeshTransform+DemoTransforms */,
+				29542E30196272950003BFA6 /* Demos */,
+				29542DD819623B170003BFA6 /* Frameworks */,
+				29542E2E196272760003BFA6 /* Images */,
+				463632E023EB4867A185101B /* Pods.xcconfig */,
+				29542DDF19623B170003BFA6 /* PopDemos */,
+				29542DF819623B170003BFA6 /* PopDemosTests */,
+				29542DD719623B170003BFA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29542DD719623B170003BFA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29542DD619623B170003BFA6 /* PopDemos.app */,
+				29542DF119623B170003BFA6 /* PopDemosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29542DD819623B170003BFA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29542DD919623B170003BFA6 /* Foundation.framework */,
+				29542DDB19623B170003BFA6 /* CoreGraphics.framework */,
+				29542DDD19623B170003BFA6 /* UIKit.framework */,
+				29542DF219623B170003BFA6 /* XCTest.framework */,
+				083854A9142F44E5AB85647C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29542DDF19623B170003BFA6 /* PopDemos */ = {
+			isa = PBXGroup;
+			children = (
+				29542DE819623B170003BFA6 /* RWTAppDelegate.h */,
+				29542DE919623B170003BFA6 /* RWTAppDelegate.m */,
+				29542DEB19623B170003BFA6 /* Images.xcassets */,
+				29542DE019623B170003BFA6 /* Supporting Files */,
+			);
+			path = PopDemos;
+			sourceTree = "<group>";
+		};
+		29542DE019623B170003BFA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29542DE119623B170003BFA6 /* PopDemos-Info.plist */,
+				29542DE219623B170003BFA6 /* InfoPlist.strings */,
+				29542DE519623B170003BFA6 /* main.m */,
+				29542DE719623B170003BFA6 /* PopDemos-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29542DF819623B170003BFA6 /* PopDemosTests */ = {
+			isa = PBXGroup;
+			children = (
+				29542DFE19623B170003BFA6 /* PopDemosTests.m */,
+				29542DF919623B170003BFA6 /* Supporting Files */,
+			);
+			path = PopDemosTests;
+			sourceTree = "<group>";
+		};
+		29542DF919623B170003BFA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29542DFA19623B170003BFA6 /* PopDemosTests-Info.plist */,
+				29542DFB19623B170003BFA6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29542E2E196272760003BFA6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				29542E1319624CC60003BFA6 /* facebook-icon.png */,
+				29542E1419624CC60003BFA6 /* facebook-icon@2x.png */,
+				29542E1A1962520C0003BFA6 /* kimon.png */,
+				29542E1B1962520C0003BFA6 /* kimon@2x.png */,
+				29542E1E1962567A0003BFA6 /* rick.png */,
+				29542E1F1962567A0003BFA6 /* rick@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		29542E2F1962727B0003BFA6 /* BCMeshTransform+DemoTransforms */ = {
+			isa = PBXGroup;
+			children = (
+				29542E251962591A0003BFA6 /* BCMeshTransform+DemoTransforms.h */,
+				29542E261962591A0003BFA6 /* BCMeshTransform+DemoTransforms.m */,
+			);
+			name = "BCMeshTransform+DemoTransforms";
+			sourceTree = "<group>";
+		};
+		29542E30196272950003BFA6 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				29542E0819623B8C0003BFA6 /* Storyboard.storyboard */,
+				29542E2B196269C50003BFA6 /* RWTAnimationsController.h */,
+				29542E2C196269C50003BFA6 /* RWTAnimationsController.m */,
+				29542E28196265490003BFA6 /* RWTAutoLayoutController.h */,
+				29542E29196265490003BFA6 /* RWTAutoLayoutController.m */,
+				29542E22196256F60003BFA6 /* RWTCurtainController.h */,
+				29542E23196256F60003BFA6 /* RWTCurtainController.m */,
+				29542E1719624D2B0003BFA6 /* RWTInteractionController.h */,
+				29542E1819624D2B0003BFA6 /* RWTInteractionController.m */,
+				29542E101962452D0003BFA6 /* RWTRACController.h */,
+				29542E111962452D0003BFA6 /* RWTRACController.m */,
+				29542E0A196242AB0003BFA6 /* RWTUIKitController.h */,
+				29542E0B196242AB0003BFA6 /* RWTUIKitController.m */,
+			);
+			name = Demos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29542DD519623B170003BFA6 /* PopDemos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29542E0219623B170003BFA6 /* Build configuration list for PBXNativeTarget "PopDemos" */;
+			buildPhases = (
+				C1F2830A1873424CB177CC65 /* Check Pods Manifest.lock */,
+				29542DD219623B170003BFA6 /* Sources */,
+				29542DD319623B170003BFA6 /* Frameworks */,
+				29542DD419623B170003BFA6 /* Resources */,
+				B11E4999A20E447C91F9E0B4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopDemos;
+			productName = PopDemos;
+			productReference = 29542DD619623B170003BFA6 /* PopDemos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29542DF019623B170003BFA6 /* PopDemosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29542E0519623B170003BFA6 /* Build configuration list for PBXNativeTarget "PopDemosTests" */;
+			buildPhases = (
+				29542DED19623B170003BFA6 /* Sources */,
+				29542DEE19623B170003BFA6 /* Frameworks */,
+				29542DEF19623B170003BFA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29542DF719623B170003BFA6 /* PBXTargetDependency */,
+			);
+			name = PopDemosTests;
+			productName = PopDemosTests;
+			productReference = 29542DF119623B170003BFA6 /* PopDemosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29542DCE19623B170003BFA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RWT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ryan Nystrom";
+				TargetAttributes = {
+					29542DF019623B170003BFA6 = {
+						TestTargetID = 29542DD519623B170003BFA6;
+					};
+				};
+			};
+			buildConfigurationList = 29542DD119623B170003BFA6 /* Build configuration list for PBXProject "PopDemos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29542DCD19623B170003BFA6;
+			productRefGroup = 29542DD719623B170003BFA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29542DD519623B170003BFA6 /* PopDemos */,
+				29542DF019623B170003BFA6 /* PopDemosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29542DD419623B170003BFA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29542E1619624CC60003BFA6 /* facebook-icon@2x.png in Resources */,
+				29542E1519624CC60003BFA6 /* facebook-icon.png in Resources */,
+				29542DE419623B170003BFA6 /* InfoPlist.strings in Resources */,
+				29542E211962567B0003BFA6 /* rick@2x.png in Resources */,
+				29542DEC19623B170003BFA6 /* Images.xcassets in Resources */,
+				29542E201962567B0003BFA6 /* rick.png in Resources */,
+				29542E1D1962520C0003BFA6 /* kimon@2x.png in Resources */,
+				29542E1C1962520C0003BFA6 /* kimon.png in Resources */,
+				29542E0919623B8C0003BFA6 /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29542DEF19623B170003BFA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29542DFD19623B170003BFA6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B11E4999A20E447C91F9E0B4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1F2830A1873424CB177CC65 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29542DD219623B170003BFA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29542E271962591A0003BFA6 /* BCMeshTransform+DemoTransforms.m in Sources */,
+				29542E24196256F60003BFA6 /* RWTCurtainController.m in Sources */,
+				29542E121962452D0003BFA6 /* RWTRACController.m in Sources */,
+				29542E0C196242AB0003BFA6 /* RWTUIKitController.m in Sources */,
+				29542E2A196265490003BFA6 /* RWTAutoLayoutController.m in Sources */,
+				29542E1919624D2B0003BFA6 /* RWTInteractionController.m in Sources */,
+				29542DEA19623B170003BFA6 /* RWTAppDelegate.m in Sources */,
+				29542DE619623B170003BFA6 /* main.m in Sources */,
+				29542E2D196269C50003BFA6 /* RWTAnimationsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29542DED19623B170003BFA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29542DFF19623B170003BFA6 /* PopDemosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29542DF719623B170003BFA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29542DD519623B170003BFA6 /* PopDemos */;
+			targetProxy = 29542DF619623B170003BFA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29542DE219623B170003BFA6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29542DE319623B170003BFA6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29542DFB19623B170003BFA6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29542DFC19623B170003BFA6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29542E0019623B170003BFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		29542E0119623B170003BFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29542E0319623B170003BFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 463632E023EB4867A185101B /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PopDemos/PopDemos-Prefix.pch";
+				INFOPLIST_FILE = "PopDemos/PopDemos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		29542E0419623B170003BFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 463632E023EB4867A185101B /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PopDemos/PopDemos-Prefix.pch";
+				INFOPLIST_FILE = "PopDemos/PopDemos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		29542E0619623B170003BFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PopDemos.app/PopDemos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PopDemos/PopDemos-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PopDemosTests/PopDemosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		29542E0719623B170003BFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PopDemos.app/PopDemos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PopDemos/PopDemos-Prefix.pch";
+				INFOPLIST_FILE = "PopDemosTests/PopDemosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29542DD119623B170003BFA6 /* Build configuration list for PBXProject "PopDemos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29542E0019623B170003BFA6 /* Debug */,
+				29542E0119623B170003BFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29542E0219623B170003BFA6 /* Build configuration list for PBXNativeTarget "PopDemos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29542E0319623B170003BFA6 /* Debug */,
+				29542E0419623B170003BFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29542E0519623B170003BFA6 /* Build configuration list for PBXNativeTarget "PopDemosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29542E0619623B170003BFA6 /* Debug */,
+				29542E0719623B170003BFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29542DCE19623B170003BFA6 /* Project object */;
+}
