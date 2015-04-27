@@ -7,11 +7,21 @@
 //
 
 #import "PathAnimationVC.h"
-#import <QuartzCore/QuartzCore.h>
+#import <pop/POP.h>
+
+
+@interface CACustomShapeLayer : CAShapeLayer
+@property (nonatomic, assign) NSInteger     time;
+@end
+
+@implementation CACustomShapeLayer
+
+@end
+
 
 @interface PathAnimationVC () {
     UIView          *_animView;
-    CAShapeLayer    *_maskLayer;
+    CACustomShapeLayer    *_maskLayer;
 }
 
 @end
@@ -25,21 +35,56 @@
     _animView.backgroundColor = [UIColor blueColor];
     [self.view addSubview:_animView];
     
-    _maskLayer = [[CAShapeLayer alloc] init];
+    _maskLayer = [[CACustomShapeLayer alloc] init];
     _maskLayer.path = [self fromPath].CGPath;
     _animView.layer.mask = _maskLayer;
     
-    CABasicAnimation *pathAnim = [CABasicAnimation animationWithKeyPath:@"path"];
-    pathAnim.fromValue = (__bridge id)([self fromPath].CGPath);
-    pathAnim.toValue = (__bridge id)([self toPath2].CGPath);
+//    CABasicAnimation *pathAnim = [CABasicAnimation animationWithKeyPath:@"path"];
+//    pathAnim.fromValue = (__bridge id)([self fromPath].CGPath);
+//    pathAnim.toValue = (__bridge id)([self toPath2].CGPath);
+//    
+//    pathAnim.duration = 3;
+//    pathAnim.delegate = self;
+//    [pathAnim setValue:@"toPath2" forKey:@"id"];
+//    
+//    [_maskLayer addAnimation:pathAnim forKey:nil];
     
-    pathAnim.duration = 3;
-    pathAnim.delegate = self;
-    [pathAnim setValue:@"toPath2" forKey:@"id"];
     
-    [_maskLayer addAnimation:pathAnim forKey:nil];
+    CAKeyframeAnimation *keyFrameAnim = [CAKeyframeAnimation animationWithKeyPath:@"path"];
+    keyFrameAnim.values = @[(__bridge id)([self fromPath].CGPath), (__bridge id)([self toPath2].CGPath), (__bridge id)([self toPath3].CGPath)];
+    keyFrameAnim.keyTimes = @[@0, @0.7, @1.0];
+    keyFrameAnim.duration = 1;
+    [_maskLayer addAnimation:keyFrameAnim forKey:nil];
+//    keyFrameAnim.speed = 0;
     
-    _maskLayer.path = [self toPath2].CGPath;
+    
+#if 0 // no need to spring the mask here
+    POPSpringAnimation *popAnim = [POPSpringAnimation animation];
+    popAnim.property = [POPAnimatableProperty propertyWithName:@"timeOffset" initializer:^(POPMutableAnimatableProperty *prop) {
+        // read value
+        prop.readBlock = ^(CACustomShapeLayer *obj, CGFloat values[]) {
+            values[0] = obj.timeOffset;
+        };
+        // write value
+        prop.writeBlock = ^(CACustomShapeLayer *obj, const CGFloat values[]) {
+            obj.timeOffset = values[0];
+        };
+        // dynamics threshold
+        prop.threshold = 0.01;
+    }];
+    
+    popAnim.fromValue = @(0.0);
+    popAnim.toValue =  @(2.f);
+    popAnim.springBounciness = 20;
+    popAnim.springSpeed = 20;
+    popAnim.dynamicsTension = 200;
+    popAnim.dynamicsFriction = 15.f;
+    popAnim.dynamicsMass = 1.f;
+    
+    [_maskLayer pop_addAnimation:popAnim forKey:nil];
+#endif
+    
+    _maskLayer.path = [self toPath3].CGPath;
 }
 
 -(void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag {

@@ -32,7 +32,7 @@
     
     UIView *container = [[UIView alloc] initWithFrame:self.transformView.bounds];
     container.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-    container.backgroundColor = [UIColor colorWithRed:0.85 green:0.25 blue:0.27 alpha:1];
+    container.backgroundColor = [UIColor colorWithRed:0.45 green:0.55 blue:0.27 alpha:1];
     
     UILabel *label = [[UILabel alloc] initWithFrame:container.bounds];
     label.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
